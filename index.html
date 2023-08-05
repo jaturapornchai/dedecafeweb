@@ -28,9 +28,6 @@
                     <a class="nav-link" href="#">หน้าแรก</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">โปรแกรมร้านอาหาร</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#">ราคา</a>
                 </li>
                 <li class="nav-item">
@@ -63,17 +60,20 @@
         <div style="font-size:4vw;color: blue;text-align: center;"><b><span>รองรับรูปแบบร้านอาหาร</span></b></div>
         <div class="row">
             <div class="col">
-                <button class="buttonhome">
+                <button class="buttonhome"
+                    onclick="document.getElementById('eat-and-pay').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/eat-and-pay.png" alt="pos" width="80%" class="imgshadow"><br /><br />
                     <b style="color: #000;font-size: 18px;">กินก่อนจ่าย</b>
             </div>
             <div class="col">
-                <button class="buttonhome">
+                <button class="buttonhome"
+                    onclick="document.getElementById('pay-and-eat').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/pay-and-eat.png" alt="pos" width="80%" class="imgshadow"><br /><br />
                     <b style="color: #000;font-size: 18px;">จ่ายก่อนกิน</b>
             </div>
             <div class="col">
-                <button class="buttonhome">
+                <button class="buttonhome"
+                    onclick="document.getElementById('buffet').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/buffet.png" alt="pos" width="80%" class="imgshadow"><br /><br />
                     <b style="color: #000;font-size: 18px;">บุฟเฟต์</b>
             </div>
@@ -81,12 +81,12 @@
     </div><br />
     <hr style="border: 1px solid #000;" />
     <br />
-
     <div class="container" style="width: auto;padding: 0px;height: auto;">
         <div style="font-size:4vw;color: blue;text-align: center;"><b><span>ระบบร้านอาหารครบวงจร</span></b></div>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
+                <button class="buttonhome" style="width: 100%;"
+                    onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/cashier.png" alt="pos" width="80%" class="imgshadow"><br /><br />
                     <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
                     <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
@@ -185,16 +185,118 @@
                     <b style="color: #000;font-size: 18px;">ระบบ Owner (เจ้าของร้าน)</b>
                 </button>
             </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <button class="buttonhome" style="width: 100%;"
+                    onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <img src="/images/tourists.png" alt="pos" width="80%" class="imgshadow"><br /><br />
+                    <div style="color: #000;font-size: 18px;">
+                    <b
+                        >รองรับหลายภาษาพร้อมกัน</b><br />รองรับนั่งท่องเที่ยวต่างชาติ<br />
+                    รองรับสาขาต่างประเทศ (Data Center)</div>
+                </button>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 py-3">
+                <button class="buttonhome" style="width: 100%;"
+                    onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <img src="/images/chain.png" alt="pos" width="80%" class="imgshadow"><br /><br />
+                    <div style="color: #000;font-size: 18px;">
+                    <b
+                        >รองรับสาขาทั่วโลก</b><br />รองรับภาษาสำนักงานใหญ่<br/>และภาษาของสาขา
+                    </div>
+                </button>
+            </div>
         </div>
     </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="eat-and-pay">
+        <img src="/images/eat-and-pay.png" alt="กินก่อนจ่าย" width="200px" style="float: right;padding: 10px;">
+        <div>
+            <div style="font-size: 24px;"><b>กินก่อนจ่าย</b></div>
+            <ul style="padding: 20px;">
+                <li><b>เปิดโต๊ะ</b>&nbsp;เมื่อลูกค้าเข้ามาที่ร้าน และเลือกโต๊ะได้แล้ว
+                    พนักงานจะเปิดโต๊ะให้ลูกค้านั่งได้ทันที พร้อมกับสั่งอาหารได้ทันที
+                    หรือลูกค้าสามารถสั่งอาหารเองได้ด้วยตัวเอง ผ่านระบบ Self Order (QR Code) ที่เราจัดให้
+                    โดยลูกค้าสามารถสั่งอาหารได้ทันที </li>
+                <li><b>สั่งอาหาร</b>&nbsp;ลูกค้าสามารถเรียกพนักงาน เพื่อสั่งอาหาร
+                    หรือลูกค้าสามารถสั่งอาหารเองได้ด้วยตัวเอง</li>
+                <li><b>ย้ายโต๊ะ</b>&nbsp;กรณีลูกค้าต้องการย้ายโต๊ะ เพื่อความเหมาะสม
+                    สามารถแจ้งพนักงานทำการย้ายโต๊ะได้ทันที</li>
+                <li><b>แยกโต๊ะ</b>&nbsp;กรณีลูกค้ามาด้วยกัน แต่ต้องการแยกโต๊ะ เพื่อแยกสั่งอาหาร และแยกคิดเงิน
+                    สามารถแจ้วพนักงานให้แยกโต๊ะได้ทันที</li>
+                <li><b>รวมโต๊ะ</b>&nbsp;กรณีลูกค้าต้องการรวมโต๊ะ เพื่อคิดเงินรวมกัน สามารถแจ้งพนักงานให้รวมโต๊ะได้ทันที
+                </li>
+                <li><b>แยกชำระเงิน</b>&nbsp;กรณีต้องการแยกชำระเงิน เช่น นักท่องเที่ยวต่างชาติ
+                    สามารถแจ้งพนักงานให้ทำรายการแยกชำระเงินได้</li>
+                <li><b>ชำระเงิน</b>&nbsp;สามารถแจ้งพนักงานเพื่อชำระเงิน สามารถชำระเงินสด หรือชำระด้วย Prompt Pay
+                    ได้ทันที หรือจะมาชำระที่เครื่องแคชเชียร์ก็ได้</li>
+            </ul>
+        </div>
+    </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="pay-and-eat">
+        <img src="/images/pay-and-eat.png" alt="จ่ายก่อนกิน" width="200px" style="float: right;padding: 10px;">
+        <div>
+            <div style="font-size: 24px;"><b>จ่ายก่อนกิน</b></div>
+            <ul style="padding: 20px;">
+                <li><b>ระบบสั่งอาหารล่วงหน้า</b>&nbsp;ลูกค้าสามารถ Scan QR Code เพื่อเลือกสินค้า และเครื่องดื่มล่วงหน้า
+                    แล้วระบบจะสร้าง QR Code เพื่อให้เจ้าของร้าน สามารถ Scan ได้จากมือถือลูกค้า
+                    และเมื่อรับเงินจากลูกค้าแล้ว รายการที่ลูกค้าเลือกทั้งหมดก็จะเข้าระบบร้านอาหาร และสั่งพิมพ์ไปครัว
+                    และระบบ KDS แบบทันที พร้อมระบบคิวในใบเสร็จ</li>
+                <li><b>ระบบชำระเงิน</b>&nbsp;เจ้าของร้านสามารถรับ Order จากลูกค้า และสามารถชำระเงินได้ทันที
+                    โดยสามารถชำระเงินได้ทั้งสด หรือชำระด้วย Prompt Pay ได้ทันที หลังจากชำระเงินแล้ว ระบบจะส่งเข้าครัว
+                    และระบบ KDS ทันที พร้อมระบบคิวในใบเสร็จ</li>
+                <li><b>ระบบเรียกคิว</b>&nbsp;เมื่อประกอบอาหารเสร็จแล้ว ระบบจะเรียกคิว
+                    มารับอาหารหรือเครื่องดื่มโดยอัตโนมัติ</li>
+            </ul>
+        </div>
+    </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="buffet">
+        <img src="/images/buffet.png" alt="บุฟเฟต์" width="200px" style="float: right;padding: 10px;">
+        <div>
+            <div style="font-size: 24px;"><b>บุฟเฟต์</b></div>
+            <ul style="padding: 20px;">
+                <li><b>ระบบสั่งอาหารด้วยมือถือ</b>&nbsp;ลูกค้าสามารถ Scan QR Code เพื่อเลือกสินค้า และเครื่องดื่ม
+                    พร้อมส่งเข้าระบบครัว และระบบ KDS ได้ทันที ทำให้การนำส่งอาหาร และเครื่องดื่มเป็นไปอย่างรวดเร็ว</li>
+                <li><b>จัดการเมนู</b>&nbsp;ระบบจัดการเมนู เช่น บุฟเฟต์หมู,​ บุฟเฟต์เนื้อ,​ บุฟเฟต์ทะเล
+                    ซึ่งจะเปลี่ยนแปลงไปตามเงื่อนไขที่ลูกค้าเลือก</li>
+                <li><b>นับเวลาถอยหลัง</b>&nbsp;มีระบบนับเวลาในการใช้บริการ สามารถแจ้งเตือนเมื่อใกล้หมดเวลา
+                    เพื่อแจ้งเตือนลูกค้าได้</li>
+            </ul>
+        </div>
+    </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="dede-pos">
+        <img src="/images/cashier.png" alt="point of sale" width="200px" style="float: right;padding: 10px;">
+        <div>
+            <div style="font-size: 24px;"><b>DeDe POS (Cashier)</b></div>
+            <ul style="padding: 20px;">
+                <li><b>ใช้ได้หลาย Platform</b>&nbsp;ใช้ได้ทั้งระบบ iOS, Android, Windows, Ubuntu ถ้าเป็นร้านเล็กแนะนำ
+                    Android,iOS ถ้าเป็นร้านขนาดใหญ่ แนะนำ Windows, Ubuntu</li>
+                <li><b>รับขำระเงินได้หลายแบบ</b>&nbsp;Prompt Pay พร้อมจำนวนเงิน เพื่อลดความผิดพลาด, รับชำระเงินสด, เงินโอน, คูปอง,​ บัตรเดรดิต</li>
+                <li><b>ระบบกะทำงาน</b>&nbsp;เปิดกะ​, ปิดกะ, เติมเงิน,​ นำเงินออก</li>
+            </ul>
+        </div>
+    </div>
+    <br /><br />
     <div style="background-color: rgb(126, 126, 190);">
-    <div class="container">
-        <p style="font-size: 24px; color: white;"><b>ติดต่อเรา</b></p>
-        <a href="https://line.me/ti/p/%40dedeposcafe">
-        <img src="/images/line-add-friend.png" alt="pos" width="100px" style="border: 5px solid green;"></a><br/><br/>
-                <p style="font-size: 18px; color: white;"><b>Line ID : @dedeposcafe</b></p>
-
-    </div><br/><br/><br/>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p style="font-size: 24px; color: white;"><b>ติดต่อเรา</b></p>
+                    <a href="https://line.me/ti/p/%40dedeposcafe">
+                        <img src="/images/line-add-friend.png" alt="pos" width="100px"
+                            style="border: 5px solid green;"></a><br /><br />
+                    <p style="font-size: 18px; color: white;"><b>Line ID : @dedeposcafe</b></p>
+                </div>
+                <div class="col">
+                    <div style="width: 50%;"><br />
+                        <a href="#" class="button">สมัครใช้ฟรี</a><br /><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
