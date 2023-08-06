@@ -100,7 +100,7 @@
                 </button>
             </div>
             <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
+                <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-merchant').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/merchant.png" alt="pos" width="90%" class="imgshadow"><br />
                     <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
                     <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
@@ -114,7 +114,7 @@
                 </button>
             </div>
             <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
+                <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-customer-display').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/customer-display.png" alt="pos" width="90%" class="imgshadow"><br />
                     <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
                     <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
@@ -125,7 +125,7 @@
                 </button>
             </div>
             <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
+                <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-staff').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/staff-system.png" alt="pos" width="90%" class="imgshadow"><br />
                     <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
                     <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
@@ -136,7 +136,7 @@
                 </button>
             </div>
             <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
+                <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-kds').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/kds-system.png" alt="pos" width="90%" class="imgshadow"><br />
                     <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
                     <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
@@ -145,7 +145,7 @@
                 </button>
             </div>
             <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
+                <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-delivery').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/delivery-system.png" alt="pos" width="90%" class="imgshadow"><br />
                     <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
                     <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
@@ -156,7 +156,7 @@
                 </button>
             </div>
             <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
+                <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-queue').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/queue-system.png" alt="pos" width="90%" class="imgshadow"><br />
                     <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
                     <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
@@ -167,7 +167,7 @@
                 </button>
             </div>
             <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
+                <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-self-order').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                     <img src="/images/self-order.png" alt="pos" width="90%" class="imgshadow"><br />
                     <img src="/images/logo-browser-chrome.png" alt="pos" width="20px">
                     <img src="/images/logo-browser-safari.png" alt="pos" width="20px">
@@ -368,6 +368,69 @@
                     เงินโอน, คูปอง,​ บัตรเดรดิต, Alipay, weChat</li>
                 <li><b>ระบบกะทำงาน</b>&nbsp;เปิดกะ​, ปิดกะ, เติมเงิน,​ นำเงินออก</li>
             </ul>
+        </div>
+    </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="dede-merchanrt">
+        <img src="/images/merchant.png" alt="point of sale" width="200px" style="float: right;padding: 10px;"
+            class="imgshadow">
+        <div>
+            <h2>DeDe Merchant</h2>
+            ระบบจัดการหลังบ้าน กำหนดรายละเอียดกิจการ รูปแบบกิจการ รายละเอียดสินค้า รูปภาพสินค้า จัดกลุ่มสินค้า ราคาสินค้า เงื่อนไขสินค้า สูตรการตัดสต๊อกของสินค้า รายละเอียดโปรโมชั่น รายละเอียดพนักงาน รายละเอียดลูกค้า รายละเอียดโต๊ะ รายละเอียดครัว และรายละเอียดอื่นๆ ที่เกี่ยวข้องกับการจัดการร้านอาหาร เพื่อให้พนักงานเก็บเงิน พนักงานบริการ ทำงานได้อย่างรวดเร็ว มีประสิทธิภาพ ไม่ผิดพลาด พร้อมทั้งมีระบบงานบัญชี ไม่ว่าจะเป็นการซื้อสินค้า การรับสินค้า การผลิตสินค้า เจ้าหนี้ ลูกหนี้ เงินสด ธนาคาร รายงานต่างๆ ที่เกี่ยวข้องกับการบริหารจัดการร้านอาหาร
+        </div>
+    </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="dede-customer-display">
+        <img src="/images/customer-display.png" alt="point of sale" width="200px" style="float: right;padding: 10px;"
+            class="imgshadow">
+        <div>
+            <h2>DeDe Customer Display</h2>
+            หน้าจอสำหรับให้ลูกค้าดูรายการที่กำลังขาย ราคา จำนวน รวมราคา และรายการที่ขายไปแล้ว ราคารวม ราคาทอน เพื่อให้ลูกค้าสามารถตรวจสอบรายการที่ซื้อได้ และเพิ่มความน่าเชื่อถือในการขายสินค้า พร้อมทั้งลูกค้าสามารถกดหมายเลขสมาชิก หมายเลขโทรศัพท์ หรือ Scan Qr Code บัตรสมาชิก เพื่อสิทธิประโยชน์ของลูกค้า เช่น ส่วนลดพิเศษ การสะสมแต้ม ทำให้ลูกค้าเกิดความมั่นใจ และพึงพอใจในการใช้บริการ
+        </div>
+    </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="dede-staff">
+        <img src="/images/staff-system.png" alt="point of sale" width="200px" style="float: right;padding: 10px;"
+            class="imgshadow">
+        <div>
+            <h2>DeDe Staff</h2>
+            เป็น App ที่ทำงานบนระบบมือถือ iOS, Android เพื่อให้พนักงานบริการสามารถให้บริการได้สะดวก รวดเร็ว ไม่ผิดพลาด เช่น เปิดโต๊ะ, ปิดโต๊ะ,​ ย้ายโต๊ะ, รวมโต๊ะ, แยกโต๊ะ, สรุปยอด พร้อมรับเงินสดจากลูกค้า หรือ Scan Qr Code และพิมพ์ใบเสร็จรับเงินได้ทันที โดยที่ไม่ต้องเดินไปมาระหว่างโต๊ะลูกค้า และ Cashier ให้เสียเวลา อาจทำให้ลูกค้ารอนาน และเกิดความไม่พอใจ พร้อมทั้งพนักงานบริการสามารถดูได้ว่า อาหาร หรือเครื่องดื่มตัวไหนหมดแล้ว เพื่อการสื่อสารระหว่างห้องครัว และส่วนหน้า เป็นไปอย่างมีประสิทธิภาพ และถ้ารายการอาหาร หรือเครื่องดื่มตัวไหนหมดแล้ว ระบบ Self Ordering ฝั่งลูกค้าที่สั่งอาหารเอง ก็จะเห็นสถานะสินค้า ว่า หมด หรือหรือจำนวนเท่าใดได้ แบบทันที
+        </div>
+    </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="dede-kds">
+        <img src="/images/kds-system.png" alt="point of sale" width="200px" style="float: right;padding: 10px;"
+            class="imgshadow">
+        <div>
+            <h2>DeDe KDS</h2>
+            ระบบ Kitchen Display System สำหรับห้องครัว และกุ๊ก โดยระบบจะแสดงคิวรายการประกอบอาหาร พร้อมคำแนะนำในการประกอบอาหารให้รวดเร็ว สามารถพูดชื่ออาหาร จำนวน และรายละเอียดอื่นๆ ของรายการอาหารที่สั่ง ได้โดยไม่ต้องดูหน้าจอ และเมื่อประกอบอาหารเสร็จแล้ว สามารถกดเพื่อปิดสถานะว่าประกอบเสร็จแล้ว และยังสามารถพิมพ์ใบติดจาน เพื่อนำเสริฟท์ได้ พร้อมมีระบบเตือนอาหารช้าเกินกำหนด ระบบแสดงสถานะการทำอาหารว่า ปรกติ ช้า และช้ามาก เพื่อให้กุ๊กสามารถบริหารจัดการห้องครัวได้ง่ายขึ้น
+        </div>
+    </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="dede-delivery">
+        <img src="/images/delivery-system.png" alt="point of sale" width="200px" style="float: right;padding: 10px;"
+            class="imgshadow">
+        <div>
+            <h2>DeDe Delivery</h2>
+            สามารถเปิด Job ตามรายการสั่งอาหารจาก Platform Delivery สามารถสั่งอาหารตาม Order โดยระบบจะส่งต่อไปยังครัวโดยอัตโนมัติ พร้อมทั้งสามารถพิมพ์ใบสรุปรายการ เพื่อประกอบกับ Order ของ Platform Delivery ได้
+        </div>
+    </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="dede-queue">
+        <img src="/images/queue-system.png" alt="point of sale" width="200px" style="float: right;padding: 10px;"
+            class="imgshadow">
+        <div>
+            <h2>DeDe Queue</h2>
+            ลูกค้าสามารถ Scan Qr Code เพื่อจองคิวได้เอง หรือให้พนักงานกดจองคิวให้ก็ได้ เมื่อถึงคิว พนักงานสามารถกดเพื่อเรียกคิว พร้อมเสียงพูดหมาบเลขคิว ลูกค้าสามารถตรวจสอบคิวได้ผ่านระบบ Internet โดยไม่ต้องรออยู่ในร้าน และสามารถเดินไปทำกิจกรรมอย่างอื่นได้ โดยระบบจะแสดงสถานะว่า มีคิวก่อนหน้ากี่คิว 
+        </div>
+    </div>
+    <hr style="border: 1px solid #000;" />
+    <div class="container" id="dede-self-order">
+        <img src="/images/self-order.png" alt="point of sale" width="200px" style="float: right;padding: 10px;"
+            class="imgshadow">
+        <div>
+            <h2>DeDe Self Ordering</h2>
+            ลูกค้าสามารถ Scan Qr Code ด้วยมือถือส่วนตัว เพื่อสั่งอาหารได้เอง สามารถติดตามได้ว่าอาหารเสริฟหรือยัง และสรุปยอด่าใช้บริการได้ทันที สามารถแยกได้ว่า สั่งทานที่ร้าน หรือสั่งกลับบ้าน โดยรวมเป็นยอดเดียวกัน พร้อมทั้งระบบเรียกพนักงานผ่านมือถือ
         </div>
     </div>
     <br /><br />
