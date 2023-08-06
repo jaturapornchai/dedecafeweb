@@ -1,41 +1,43 @@
-body{
-    font-family: 'Mitr', sans-serif;
+body {
+  font-family: 'Mitr', sans-serif;
 }
 
 .button {
-	box-shadow: 0px 1px 0px 0px #fff6af;
-	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
-	background-color:#ffec64;
-	border-radius:6px;
-	border:1px solid #ffaa22;
-	display:inline-block;
-	cursor:pointer;
-	color:#333333;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffee66;
-}
-.button:hover {
-	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
-	background-color:#ffab23;
-}
-.button:active {
-	position:relative;
-	top:1px;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
 }
 
-span{
+.button:hover {
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+span {
   white-space: nowrap;
-  transform:scale(1.8,1);
-  -webkit-transform:scale(0.5);
+  transform: scale(1.8, 1);
+  -webkit-transform: scale(0.5);
 }
 
 .buttonhome {
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: 0;
   padding: 10px 10px;
   transition: transform .2s;
@@ -48,12 +50,13 @@ span{
 }
 
 .imgshadow {
-  border:2px solid #e3e3eb;
+  border: 2px solid #e3e3eb;
   background: no-repeat;
-  box-shadow: 5px 5px 2px #ccc;
-  -moz-box-shadow: 5px 5px 2px #e0d3d3;
-  -webkit-box-shadow: 5px 5px 2px #ccc;
-  -khtml-box-shadow: 5px 5px 2px #ccc;
+  box-shadow: 2px 2px 1px #ccc;
+  margin: 0px 0px 10px 0px;
+  -moz-box-shadow: 2px 2px 1px #e0d3d3;
+  -webkit-box-shadow: 2px 2px 1px #ccc;
+  -khtml-box-shadow: 2px 2px 1px #ccc;
 }
 
 .navbar {
@@ -75,4 +78,17 @@ span{
 
 .navbar a:hover {
   color: #1c87c9;
+}
+
+h1 {
+  font-size: 4vw;
+  color: blue;
+  text-shadow: 2px 2px #9a9e84d7;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: 'Mitr', sans-serif;
 }
