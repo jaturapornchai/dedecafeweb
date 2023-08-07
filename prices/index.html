@@ -4,13 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>DeDe POS Cafe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -34,345 +32,104 @@
                     <a class="nav-link" href="#">คู่มือ/วิดีโอ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ติดต่อเรา</a>
+                    <a class="nav-link" href="#contact">ติดต่อเรา</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">เข้าสู่ระบบ</a>
+                    <a class="nav-link" href="https://dedemerchant.web.app/" target="_blank">เข้าสู่ระบบ</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div
-        style="width: 100%;height: auto; padding: 10px;background-image: url('/images/home-background.png');background-repeat: no-repeat;background-size: cover;margin-top: 90px;">
-        <div class="container" style="width: auto;padding: 0px;height: auto;">
-            <div style="font-size:5vw;text-shadow: 4px 4px #000;color: white;"><b><span>ระบบร้านอาหารครบวงจร</span></b>
-            </div>
-            <div style="font-size:2vw;text-shadow: 2px 2px #000;color: white;">
-                ช่วยให้การบริหารจัดการร้านอาหารของคุณง่ายขึ้น</div><br />
-            <a href="https://dedefoodorder.web.app/" target="_blank" class="button">ทดลองใช้ระบบสั่งอาหาร (Self
-                Ordering)</a><br /><br />
-            <a href="#" class="button">สมัครใช้ฟรี</a><br /><br />
-            <img src="/images/logo-apple-app-store.png" alt="app store" width="40px;">
-            <img src="/images/logo-google-play-store.png" alt="google play store" width="40px;">
-            <img src="/images/logo-windows.png" alt="windows" width="40px;">
-            <img src="/images/logo-ubuntu.png" alt="linux" width="40px;">
-        </div>
+
+    <div class="container" style="margin-top: 100px;font-size: 14px;">
+        <table style="width: 100%;">
+            <thead style="border-bottom: 1pt solid gray">
+                <tr style="background-color: rgb(173, 222, 251);font-size: 18px;">
+                    <th style="width: 20%;text-align: center;padding: 10px;">แพ็คเกจหลัก/สาขา</th>
+                    <th style="width: 20%;text-align: center;padding: 10px;">ฟรี</th>
+                    <th style="width: 20%;text-align: center;padding: 10px;">Starter</th>
+                    <th style="width: 20%;text-align: center;padding: 10px;">Standard</th>
+                    <th style="width: 20%;text-align: center;padding: 10px;">Premium</th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
+                    <td><b>ราคา</b></td>
+                    <td style="text-align: center;">ฟรี</td>
+                    <td style="text-align: center;">490 บาท/เดือน<br><div style="color: red;">1,620 บาท/ปี</div></td>
+                    <td style="text-align: center;">990 บาท/เดือน<br><div style="color: red;">2,700 บาท/ปี</div></td>
+                    <td style="text-align: center;">1,490 บาท/เดือน<br><div style="color: red;">5,400 บาท/ปี</div></td>
+                </tr>
+                <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
+                    <td><b>จำนวนโต๊ะสูงสุด</b></td>
+                    <td style="text-align: center;">15 โต๊ะ</td>
+                    <td style="text-align: center;">20 โต๊ะ</td>
+                    <td style="text-align: center;">30 โต๊ะ</td>
+                    <td style="text-align: center;">50 โต๊ะ</td>
+                </tr>
+                <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
+                    <td><b>จำนวนเครื่องพิมพ์ครัวสูงสุด</b></td>
+                    <td style="text-align: center;">2 เครื่อง</td>
+                    <td style="text-align: center;">4 เครื่อง</td>
+                    <td style="text-align: center;">8 เครื่อง</td>
+                    <td style="text-align: center;">16 เครื่อง</td>
+                </tr>
+                <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
+                    <td><b>จำนวน KDS สูงสุด</b></td>
+                    <td style="text-align: center;">4 เครื่อง</td>
+                    <td style="text-align: center;">8 เครื่อง</td>
+                    <td style="text-align: center;">16 เครื่อง</td>
+                    <td style="text-align: center;">32 เครื่อง</td>
+                </tr>
+                <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
+                    <td><b>จำนวน STAFF สูงสุด</b></td>
+                    <td style="text-align: center;"><b>2 เครื่อง</b><div style="font-size: 10px;">เครื่องต่อไป +10 บาท/เดือน</div></td>
+                    <td style="text-align: center;"><b></b>4 เครื่อง</b><div style="font-size: 10px;">เครื่องต่อไป +20 บาท/เดือน</div></td>
+                    <td style="text-align: center;"><b></b>8 เครื่อง</b><div style="font-size: 10px;">เครื่องต่อไป +30 บาท/เดือน</div></td>
+                    <td style="text-align: center;"><b></b>16 เครื่อง</b><div style="font-size: 10px;">เครื่องต่อไป +40 บาท/เดือน</div></td>
+                </tr>
+                <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
+                    <td><b>จำนวนบิลขายสูงสุด/เดือน</b></td>
+                    <td style="text-align: center;">10,000 บิล<br/><div style="font-size: 10px;">333 บิล/วัน</div></td>
+                    <td style="text-align: center;">30,000 บิล<br/><div style="font-size: 10px;">1,000 บิล/วัน</div></td>
+                    <td style="text-align: center;">60,000 บิล<br/><div style="font-size: 10px;">2,000 บิล/วัน</div></td>
+                    <td style="text-align: center;">120,000 บิล<br/><div style="font-size: 10px;">4,000 บิล/วัน</div></td>
+                </tr>
+                <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
+                    <td><b>ระบบลูกค้าสั่งเอง Self Ordering</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                </tr>
+                <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
+                    <td><b>ระบบหน้าร้าน Cashier</b></td>
+                    <td style="text-align: center;"><b>1 เครื่อง</b><div style="font-size: 10px;">เครื่องต่อไป +20 บาท/เดือน</div></td>
+                    <td style="text-align: center;"><b>1 เครื่อง</b><div style="font-size: 10px;">เครื่องต่อไป +40 บาท/เดือน</div></td>
+                    <td style="text-align: center;"><b>1 เครื่อง</b><div style="font-size: 10px;">เครื่องต่อไป +80 บาท/เดือน</div></td>
+                    <td style="text-align: center;"><b>1 เครื่อง</b><div style="font-size: 10px;">เครื่องต่อไป +160 บาท/เดือน</div></td>
+                </tr>
+                <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
+                    <td><b>ระบบหลังร้าน Merchant</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                </tr>
+                <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
+                    <td><b>ระบบเจ้าของร้าน (Owner)</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                    <td style="text-align: center;color: blue;"><b>&#10003;</b></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-    <div class="container" style="width: auto;padding: 0px;height: auto;padding: 18px;">
-        <h1>รองรับรูปแบบร้านอาหาร</h1>
-        <div class="row">
-            <div class="col">
-                <button class="buttonhome"
-                    onclick="document.getElementById('eat-and-pay').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                    <img src="/images/eat-and-pay.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <b style="color: #000;font-size: 18px;">กินก่อนจ่าย</b>
-            </div>
-            <div class="col">
-                <button class="buttonhome"
-                    onclick="document.getElementById('pay-and-eat').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                    <img src="/images/pay-and-eat.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <b style="color: #000;font-size: 18px;">จ่ายก่อนกิน</b>
-            </div>
-            <div class="col">
-                <button class="buttonhome"
-                    onclick="document.getElementById('buffet').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                    <img src="/images/buffet.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <b style="color: #000;font-size: 18px;">บุฟเฟต์</b>
-            </div>
-        </div>
-    </div>
-    <hr style="border: 1px solid #000;" />
-    <div class="container" style="width: auto;padding: 0px;height: auto;">
-        <h1>ระบบร้านอาหารครบวงจร</h1>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;"
-                    onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                    <img src="/images/cashier.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-windows.png" alt="pos" width="20px">
-                    <img src="/images/logo-ubuntu.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>ระบบ Cashier</b><br />ดูแลเงินสด
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/merchant.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-windows.png" alt="pos" width="20px">
-                    <img src="/images/logo-browser-chrome.png" alt="pos" width="20px">
-                    <img src="/images/logo-browser-safari.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>ระบบ Merchant</b><br />จัดการหลังบ้าน
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/customer-display.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>Customer Display</b><br />หน้าจอฝั่งลูกค้า
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/staff-system.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>ระบบ Staff</b><br />สำหรับพนักงานบริการ
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/kds-system.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
-                    </br>
-                    <b style="color: #000;font-size: 18px;">ระบบห้องครัว (KDS)</b>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/delivery-system.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>ระบบจัดการ Delivery</b><br />จัดคิวการส่งอาหาร
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/queue-system.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>ระบบ Queue</b><br />จัดคิวลูกค้าพร้อมแจ้งเตือน
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/self-order.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-browser-chrome.png" alt="pos" width="20px">
-                    <img src="/images/logo-browser-safari.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>ระบบลูกค้าสั่งเอง</b><br />ด้วย QR Code
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/crm.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-browser-chrome.png" alt="pos" width="20px">
-                    <img src="/images/logo-browser-safari.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>ระบบ CRM</b><br />ประวัติลูกค้า<br />สถิติการใช้บริการ
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/account-system.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-browser-chrome.png" alt="pos" width="20px">
-                    <img src="/images/logo-browser-safari.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>ระบบบัญชี</b><br />สต๊อก, เจ้าหนี้, ลูกหนี้, เงินสด, ธนาคาร, ปิดงบ
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/owner-system.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-apple-app-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-google-play-store.png" alt="pos" width="20px">
-                    <img src="/images/logo-browser-chrome.png" alt="pos" width="20px">
-                    <img src="/images/logo-browser-safari.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>ระบบ Owner</b><br />เจ้าของร้าน
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 py-3">
-                <button class="buttonhome" style="width: 100%;">
-                    <img src="/images/franchise.png" alt="pos" width="90%" class="imgshadow"><br />
-                    <img src="/images/logo-browser-chrome.png" alt="pos" width="20px">
-                    <img src="/images/logo-browser-safari.png" alt="pos" width="20px">
-                    </br>
-                    <div style="color: #000;font-size: 18px;">
-                        <b>ระบบแฟรนไชส์</b><br />ดูแลร้านสมาชิก
-                    </div>
-                </button>
-            </div>
-        </div>
-    </div>
-    <hr style="border: 1px solid #000;" />
-    <br />
-    <div class="container" style="width: auto;padding: 0px;height: auto;">
-        <h1>คุณสมบัติ</h1>
-        <div class="row">
-            <div class="col-lg-2 col-md-6 col-12 py-2">
-                <button class="buttonhome" style="width: 100%;"
-                    onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                    <img src="/images/tourists.png" alt="pos" width="100%" class="imgshadow"><br />
-                    <div style="color: #000;font-size: 12px;">
-                        <b>รองรับหลายภาษา</b><br />นักท่องเที่ยวต่างชาติ<br />
-                        สั่งอาหารและเครื่องดื่ม<br/>ด้วยภาษาตัวเอง
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-2 col-md-6 col-12 py-2">
-                <button class="buttonhome" style="width: 100%;"
-                    onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                    <img src="/images/restaurant_data_synchronization.png" alt="pos" width="100%"
-                        class="imgshadow"><br />
-                    <div style="color: #000;font-size: 12px;">
-                        <b>เชื่อมข้อมูลทั่วโลก</b><br />ข้อมูลเชื่อมถึงกันทันที<br />Internet เสีย<br />ก็ยังใช้ระบบได้
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-2 col-md-6 col-12 py-2">
-                <button class="buttonhome" style="width: 100%;"
-                    onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                    <img src="/images/chain.png" alt="pos" width="100%" class="imgshadow"><br />
-                    <div style="color: #000;font-size: 12px;">
-                        <b>จัดการสาขาได้ทั่วโลก</b><br />ภาษาของสำนักงานใหญ่<br />และภาษาของสาขา<br />Data
-                        Center
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-2 col-md-6 col-12 py-2">
-                <button class="buttonhome" style="width: 100%;"
-                    onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                    <img src="/images/multi-device.png" alt="pos" width="100%" class="imgshadow"><br />
-                    <div style="color: #000;font-size: 12px;">
-                        <b>หลากหลายอุปกรณ์</b><br />Windows, Ubuntu<br />Andoid, iOS, Browser
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-2 col-md-6 col-12 py-2">
-                <button class="buttonhome" style="width: 100%;"
-                    onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                    <img src="/images/cook.png" alt="pos" width="100%" class="imgshadow"><br />
-                    <div style="color: #000;font-size: 12px;">
-                        <b>ผู้ช่วยกุ๊ก</b><br />พูดชื่ออาหารได้<br />จัดคิวประกอบอาหาร<br />ตามอาหารช้าอัตโนมัติ
-                    </div>
-                </button>
-            </div>
-            <div class="col-lg-2 col-md-6 col-12 py-2">
-                <button class="buttonhome" style="width: 100%;"
-                    onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                    <img src="/images/pay-at-table.png" alt="pos" width="100%" class="imgshadow"><br />
-                    <div style="color: #000;font-size: 12px;">
-                        <b>รับชำระเงินที่โต๊ะลูกค้า</b><br />รับเป็นเงินสด<br />Qr Prompt
-                        Pay<br />พร้อมพิมพ์ใบเสร็จที่โต๊ะ
-                    </div>
-                </button>
-            </div>
-        </div>
-    </div>
-    <hr style="border: 1px solid #000;" />
-    <div class="container" id="eat-and-pay">
-        <img src="/images/eat-and-pay.png" alt="กินก่อนจ่าย" width="200px" style="float: right;padding: 10px;"
-            class="imgshadow">
-        <div>
-            <h2>กินก่อนจ่าย</h2>
-            <ul style="padding: 20px;">
-                <li><b>เปิดโต๊ะ</b>&nbsp;เมื่อลูกค้าเข้ามาที่ร้าน และเลือกโต๊ะได้แล้ว
-                    พนักงานจะเปิดโต๊ะให้ลูกค้านั่งได้ทันที พร้อมกับสั่งอาหารได้ทันที
-                    หรือลูกค้าสามารถสั่งอาหารเองได้ด้วยตัวเอง ผ่านระบบ Self Order (QR Code) ที่เราจัดให้
-                    โดยลูกค้าสามารถสั่งอาหารได้ทันที </li>
-                <li><b>สั่งอาหาร</b>&nbsp;ลูกค้าสามารถเรียกพนักงาน เพื่อสั่งอาหาร
-                    หรือลูกค้าสามารถสั่งอาหารเองได้ด้วยตัวเอง</li>
-                <li><b>ย้ายโต๊ะ</b>&nbsp;กรณีลูกค้าต้องการย้ายโต๊ะ เพื่อความเหมาะสม
-                    สามารถแจ้งพนักงานทำการย้ายโต๊ะได้ทันที</li>
-                <li><b>แยกโต๊ะ</b>&nbsp;กรณีลูกค้ามาด้วยกัน แต่ต้องการแยกโต๊ะ เพื่อแยกสั่งอาหาร และแยกคิดเงิน
-                    สามารถแจ้วพนักงานให้แยกโต๊ะได้ทันที</li>
-                <li><b>รวมโต๊ะ</b>&nbsp;กรณีลูกค้าต้องการรวมโต๊ะ เพื่อคิดเงินรวมกัน สามารถแจ้งพนักงานให้รวมโต๊ะได้ทันที
-                </li>
-                <li><b>แยกชำระเงิน</b>&nbsp;กรณีต้องการแยกชำระเงิน เช่น นักท่องเที่ยวต่างชาติ
-                    สามารถแจ้งพนักงานให้ทำรายการแยกชำระเงินได้</li>
-                <li><b>ชำระเงิน</b>&nbsp;สามารถแจ้งพนักงานเพื่อชำระเงิน สามารถชำระเงินสด หรือชำระด้วย Prompt Pay
-                    ได้ทันที หรือจะมาชำระที่เครื่องแคชเชียร์ก็ได้</li>
-            </ul>
-        </div>
-    </div>
-    <hr style="border: 1px solid #000;" />
-    <div class="container" id="pay-and-eat">
-        <img src="/images/pay-and-eat.png" alt="จ่ายก่อนกิน" width="200px" style="float: right;padding: 10px;"
-            class="imgshadow">
-        <div>
-            <h2>จ่ายก่อนกิน</h2>
-            <ul style="padding: 20px;">
-                <li><b>ระบบสั่งอาหารล่วงหน้า</b>&nbsp;ลูกค้าสามารถ Scan QR Code เพื่อเลือกสินค้า และเครื่องดื่มล่วงหน้า
-                    แล้วระบบจะสร้าง QR Code เพื่อให้เจ้าของร้าน สามารถ Scan ได้จากมือถือลูกค้า
-                    และเมื่อรับเงินจากลูกค้าแล้ว รายการที่ลูกค้าเลือกทั้งหมดก็จะเข้าระบบร้านอาหาร และสั่งพิมพ์ไปครัว
-                    และระบบ KDS แบบทันที พร้อมระบบคิวในใบเสร็จ</li>
-                <li><b>ระบบชำระเงิน</b>&nbsp;เจ้าของร้านสามารถรับ Order จากลูกค้า และสามารถชำระเงินได้ทันที
-                    โดยสามารถชำระเงินได้ทั้งสด หรือชำระด้วย Prompt Pay ได้ทันที หลังจากชำระเงินแล้ว ระบบจะส่งเข้าครัว
-                    และระบบ KDS ทันที พร้อมระบบคิวในใบเสร็จ</li>
-                <li><b>ระบบเรียกคิว</b>&nbsp;เมื่อประกอบอาหารเสร็จแล้ว ระบบจะเรียกคิว
-                    มารับอาหารหรือเครื่องดื่มโดยอัตโนมัติ</li>
-            </ul>
-        </div>
-    </div>
-    <hr style="border: 1px solid #000;" />
-    <div class="container" id="buffet">
-        <img src="/images/buffet.png" alt="บุฟเฟต์" width="200px" style="float: right;padding: 10px;" class="imgshadow">
-        <div>
-            <h2>บุฟเฟต์</h2>
-            <ul style="padding: 20px;">
-                <li><b>เลือกน้ำซุปได้เมื่อเปิดโต๊ะ</b>&nbsp;เลือกน้ำซุป เช่น ซุปกระดูก และซุปหมาล่า
-                    ระบบจะแจ้งไปทางครัวเพื่อให้เตรียมรายการได้ล่วงหน้า</li>
-                <li><b>ระบบสั่งอาหารด้วยมือถือ</b>&nbsp;ลูกค้าสามารถ Scan QR Code เพื่อเลือกสินค้า และเครื่องดื่ม
-                    พร้อมส่งเข้าระบบครัว และระบบ KDS ได้ทันที ทำให้การนำส่งอาหาร และเครื่องดื่มเป็นไปอย่างรวดเร็ว</li>
-                <li><b>จัดการเมนู</b>&nbsp;ระบบจัดการเมนู เช่น บุฟเฟต์หมู,​ บุฟเฟต์เนื้อ,​ บุฟเฟต์ทะเล
-                    ซึ่งจะเปลี่ยนแปลงไปตามเงื่อนไขที่ลูกค้าเลือก</li>
-                <li><b>นับเวลาถอยหลัง</b>&nbsp;มีระบบนับเวลาในการใช้บริการ สามารถแจ้งเตือนเมื่อใกล้หมดเวลา
-                    เพื่อแจ้งเตือนลูกค้าได้</li>
-            </ul>
-        </div>
-    </div>
-    <hr style="border: 1px solid #000;" />
-    <div class="container" id="dede-pos">
-        <img src="/images/cashier.png" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-            class="imgshadow">
-        <div>
-            <h2>DeDe POS (Cashier)</h2>
-            <ul style="padding: 20px;">
-                <li><b>ใช้ได้หลาย Platform</b>&nbsp;ใช้ได้ทั้งระบบ iOS, Android, Windows, Ubuntu ถ้าเป็นร้านเล็กแนะนำ
-                    Android,iOS ถ้าเป็นร้านขนาดใหญ่ แนะนำ Windows, Ubuntu</li>
-                <li><b>โปรโมชั่น</b>&nbsp;ลด, แถม สามารถกำหนดสูตรโปรโมชั่นได้หลายแบบ</li>
-                <li><b>รับขำระเงินได้หลายแบบ</b>&nbsp;Prompt Pay พร้อมจำนวนเงิน เพื่อลดความผิดพลาด, รับชำระเงินสด,
-                    เงินโอน, คูปอง,​ บัตรเดรดิต, Alipay, weChat</li>
-                <li><b>ระบบกะทำงาน</b>&nbsp;เปิดกะ​, ปิดกะ, เติมเงิน,​ นำเงินออก</li>
-            </ul>
-        </div>
-    </div>
+
     <br /><br />
     <div style="background-color: rgb(126, 126, 190);">
-        <div class="container">
+        <div class="container" id="contact">
             <div class="row">
                 <div class="col">
                     <p style="font-size: 24px; color: white;"><b>ติดต่อเรา</b></p>
@@ -380,25 +137,34 @@
                         <img src="/images/line-add-friend.png" alt="pos" width="100px"
                             style="border: 5px solid green;"></a><br /><br />
                     <p style="font-size: 18px; color: white;"><b>Line ID : @dedeposcafe</b></p>
+                    <p style="font-size: 18px; color: white;"><img src="/images/telephone-icon.png" alt="pos"
+                            width="24px">&nbsp;<b>089-922-3131</b></p>
+                    <div style="color: white;"><b>บริษัท บ้านเชียงซอฟต์ จำกัด</b><br />
+                        141/469 หมู่ที่ 2 ต.ต้นเปา อ.สันกำแพง จ.เชียงใหม่ 50130</div>
                 </div>
-                <div class="col">
+                <div class="col" align="right">
                     <div style="width: 50%;"><br />
-                        <a href="#" class="button">สมัครใช้ฟรี</a><br /><br />
+                        <a href="https://dedemerchant.web.app/" class="button">สมัครใช้ฟรี</a><br /><br />
                         <a href="https://www.facebook.com/people/DEDE-POS-Cafe/100094264791299/" target="_blank"><img
                                 src="/images/facebook-logo.png" alt="pos" width="50px" height="50px"></a>
                         <a href="https://www.facebook.com/people/DEDE-POS-Cafe/100094264791299/" target="_blank"><img
-                                src="/images/youtube-logo.png" alt="pos" width="80px" height="50px"></a>
+                                src="/images/youtube-logo.png" alt="pos" width="50px" height="50px"></a>
                     </div>
                 </div>
             </div>
+            <br />
+            <div style="color: white;">Copyright © 2023 BanChiangSoft Co.,Ltd. All Rights Reserved.</div>
+            <br /> <br />
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
+    <a href="tel:0899223131" style="position:fixed;bottom:70px;right:10px;">
+        <img src="/images/telephone.png" alt="pos" width="50px">
+    </a>
+    <a href="https://line.me/ti/p/%40dedeposcafe" style="position:fixed;bottom:10px;right:10px;">
+        <img src="/images/line-logo.png" alt="pos" width="50px">
+    </a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </body>
 
 </html>
