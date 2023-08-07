@@ -10,39 +10,12 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: white;padding: 10px;">
-        <a class="navbar-brand" href="/"><img src="/images/logo.webp" class="shadow" alt="Logo"
-                width="50px;">&nbsp;<b>DeDe Cafe</b></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">หน้าแรก</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/prices/">ราคา</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">คู่มือ/วิดีโอ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">ติดต่อเรา</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://dedemerchant.web.app/" target="_blank">เข้าสู่ระบบ</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
+    <?php include_once('include/header.php'); ?>
     <div class="container" style="margin-top: 100px;font-size: 14px;">
         <table style="width: 100%;">
             <thead style="border-bottom: 1pt solid gray">
@@ -129,43 +102,9 @@
         </table>
     </div>
 
-    <br /><br />
-    <div style="background-color: rgb(126, 126, 190);">
-        <div class="container" id="contact">
-            <div class="row">
-                <div class="col">
-                    <p style="font-size: 24px; color: white;"><b>ติดต่อเรา</b></p>
-                    <a href="https://line.me/ti/p/%40dedeposcafe">
-                        <img src="/images/line-add-friend.png" alt="pos" width="100px"
-                            style="border: 5px solid green;"></a><br /><br />
-                    <p style="font-size: 18px; color: white;"><b>Line ID : @dedeposcafe</b></p>
-                    <p style="font-size: 18px; color: white;"><img src="/images/telephone-icon.png" alt="pos"
-                            width="24px">&nbsp;<b>089-922-3131</b></p>
-                    <div style="color: white;"><b>บริษัท บ้านเชียงซอฟต์ จำกัด</b><br />
-                        141/469 หมู่ที่ 2 ต.ต้นเปา อ.สันกำแพง จ.เชียงใหม่ 50130</div>
-                </div>
-                <div class="col" align="right">
-                    <div style="width: 50%;"><br />
-                        <a href="https://dedemerchant.web.app/" class="button">สมัครใช้ฟรี</a><br /><br />
-                        <a href="https://www.facebook.com/people/DEDE-POS-Cafe/100094264791299/" target="_blank"><img
-                                src="/images/facebook-logo.png" alt="pos" width="50px" height="50px"></a>
-                        <a href="https://www.facebook.com/people/DEDE-POS-Cafe/100094264791299/" target="_blank"><img
-                                src="/images/youtube-logo.png" alt="pos" width="50px" height="50px"></a>
-                    </div>
-                </div>
-            </div>
-            <br />
-            <div style="color: white;">Copyright © 2023 BanChiangSoft Co.,Ltd. All Rights Reserved.</div>
-            <br /> <br />
-        </div>
-    </div>
-    <a href="tel:0899223131" style="position:fixed;bottom:70px;right:10px;">
-        <img src="/images/telephone.png" alt="pos" width="50px">
-    </a>
-    <a href="https://line.me/ti/p/%40dedeposcafe" style="position:fixed;bottom:10px;right:10px;">
-        <img src="/images/line-logo.png" alt="pos" width="50px">
-    </a>
+    <?php include_once('include/footer.php'); ?>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </body>
 
