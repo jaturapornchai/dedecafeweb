@@ -1,26 +1,14 @@
-<!doctype html>
-<html lang="th">
-
-<head>
-    <meta charset="utf-8">
-    <title>DeDe POS Cafe</title>
-    <meta name="description" content="โปรแกรมร้านอาหารที่ทันสมัย ใช้สำหรับสั่งอาหารด้วยมือถือได้ง่าย ไม่ว่าจะเป็นการสั่งอาหารเอง, กินก่อนจ่าย, จ่ายก่อนกิน หรือบุฟเฟต์ รองรับทั้ง android, ios, windows และ ubuntu พร้อมบริการจัดส่งถึงบ้าน">
-    <meta name="author" content="Ban Chiang Soft">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-
+<?php 
+    $title="DeDe Pos Cafe : Price";
+    include('include/header.php'); 
+?>
 <body>
-    <?php include_once('include/header.php'); ?>
-    <div class="container" style="margin-top: 100px;font-size: 14px;">
+    <?php include('include/menu.php'); ?>
+    <div class="container" style="margin-top: 100px;font-size: 12px;">
         <table style="width: 100%;">
             <thead style="border-bottom: 1pt solid gray">
-                <tr style="background-color: rgb(173, 222, 251);font-size: 18px;">
-                    <th style="width: 20%;text-align: center;padding: 10px;">แพ็คเกจหลัก/สาขา</th>
+                <tr style="background-color: rgb(173, 222, 251);font-size: 14px;">
+                    <th style="width: 20%;text-align: center;padding: 10px;">แพ็คเกจต่อสาขา</th>
                     <th style="width: 20%;text-align: center;padding: 10px;">ฟรี</th>
                     <th style="width: 20%;text-align: center;padding: 10px;">Starter</th>
                     <th style="width: 20%;text-align: center;padding: 10px;">Standard</th>
@@ -31,9 +19,9 @@
                 <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
                     <td><b>ราคา</b></td>
                     <td style="text-align: center;">ฟรี</td>
-                    <td style="text-align: center;">490 บาท/เดือน<br><div style="color: red;">1,620 บาท/ปี</div></td>
-                    <td style="text-align: center;">990 บาท/เดือน<br><div style="color: red;">2,700 บาท/ปี</div></td>
-                    <td style="text-align: center;">1,490 บาท/เดือน<br><div style="color: red;">5,400 บาท/ปี</div></td>
+                    <td style="text-align: center;">490 บาท/เดือน<br><div style="color: red;font-size:10px;">ลด 40%<br/>เหลือเพียง 3,528 บาท/ปี</div></td>
+                    <td style="text-align: center;">990 บาท/เดือน<br><div style="color: red;font-size:10px;">ลด 40%<br/>เหลือเพียง 4,752 บาท/ปี</div></td>
+                    <td style="text-align: center;">1,490 บาท/เดือน<br><div style="color: red;font-size:10px;">ลด 40%<br/>เหลือเพียง 7,152 บาท/ปี</div></td>
                 </tr>
                 <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
                     <td><b>จำนวนโต๊ะสูงสุด</b></td>
@@ -65,10 +53,10 @@
                 </tr>
                 <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
                     <td><b>จำนวนบิลขายสูงสุด/เดือน</b></td>
-                    <td style="text-align: center;">10,000 บิล<br/><div style="font-size: 10px;">333 บิล/วัน</div></td>
-                    <td style="text-align: center;">30,000 บิล<br/><div style="font-size: 10px;">1,000 บิล/วัน</div></td>
-                    <td style="text-align: center;">60,000 บิล<br/><div style="font-size: 10px;">2,000 บิล/วัน</div></td>
-                    <td style="text-align: center;">120,000 บิล<br/><div style="font-size: 10px;">4,000 บิล/วัน</div></td>
+                    <td style="text-align: center;">10,000 บิล<br/><div style="font-size: 10px;">เฉลี่ย 333 บิล/วัน</div></td>
+                    <td style="text-align: center;">30,000 บิล<br/><div style="font-size: 10px;">เฉลี่ย 1,000 บิล/วัน</div></td>
+                    <td style="text-align: center;">60,000 บิล<br/><div style="font-size: 10px;">เฉลี่ย 2,000 บิล/วัน</div></td>
+                    <td style="text-align: center;">120,000 บิล<br/><div style="font-size: 10px;">เฉลี่ย 4,000 บิล/วัน</div></td>
                 </tr>
                 <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
                     <td><b>ระบบลูกค้าสั่งเอง Self Ordering</b></td>

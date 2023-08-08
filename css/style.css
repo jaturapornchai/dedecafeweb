@@ -39,7 +39,7 @@ span {
   background-color: white;
   color: black;
   border: 0;
-  padding: 10px 10px;
+  padding: 4px 4px;
   transition: transform .2s;
 }
 
@@ -53,7 +53,7 @@ span {
   border: 2px solid #e3e3eb;
   background: no-repeat;
   box-shadow: 2px 2px 1px #ccc;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
   -moz-box-shadow: 2px 2px 1px #e0d3d3;
   -webkit-box-shadow: 2px 2px 1px #ccc;
   -khtml-box-shadow: 2px 2px 1px #ccc;
@@ -71,7 +71,7 @@ span {
   float: left;
   display: block;
   text-align: center;
-  padding: 15px 18px;
+  padding: 1px 1px;
   text-decoration: none;
   font-size: 18px;
 }
@@ -92,4 +92,5 @@ h2 {
   font-weight: bold;
   font-family: 'Mitr', sans-serif;
 }
+
 
