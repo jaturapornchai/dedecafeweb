@@ -1,12 +1,12 @@
-<?php 
-    $title="DeDe Pos Cafe";
-    include('include/header.php'); 
+<?php
+$title = "DeDe Pos Cafe";
+include('header.php');
 ?>
+
 <body>
-    <?php include('include/menu.php'); ?>
+    <?php include('menu.php'); ?>
     <div style="margin-top: 90px;">
-        <div
-            style="width: 100%;height: auto; padding: 10px;background-image: url('images/home-background.webp');background-repeat: no-repeat;background-size: cover;">
+        <div style="width: 100%;height: auto; padding: 10px;background-image: url('images/home-background.webp');background-repeat: no-repeat;background-size: cover;">
             <div class="container" style="width: auto;padding: 0px;height: auto;">
                 <div style="font-size:5vw;text-shadow: 4px 4px #000;color: white;">
                     <b><span>ระบบร้านอาหารครบวงจร</span></b>
@@ -22,26 +22,23 @@
                 <img src="images/logo-ubuntu.webp" alt="linux" width="40px;">
             </div>
         </div>
-        <div class="container" style="width: auto;padding: 0px;height: auto;padding: 18px;">
+        <div class="container" style="width: auto;padding: 0px;height: auto;padding-top: 18px;">
             <h1>รองรับรูปแบบร้านอาหาร</h1>
             <div class="row">
                 <div class="col">
-                    <button class="buttonhome"
-                        onclick="document.getElementById('eat-and-pay').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" onclick="document.getElementById('eat-and-pay').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/eat-and-pay.webp" alt="pos" width="90%" class="imgshadow"><br />
-                        <b style="color: #000;font-size: 14px;">กินก่อนจ่าย</b>
+                        <b style="color: #000;font-size: 3vw;">กินก่อนจ่าย</b>
                 </div>
                 <div class="col">
-                    <button class="buttonhome"
-                        onclick="document.getElementById('pay-and-eat').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" onclick="document.getElementById('pay-and-eat').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/pay-and-eat.webp" alt="pos" width="90%" class="imgshadow"><br />
-                        <b style="color: #000;font-size: 14px;">จ่ายก่อนกิน</b>
+                        <b style="color: #000;font-size: 3vw;">จ่ายก่อนกิน</b>
                 </div>
                 <div class="col">
-                    <button class="buttonhome"
-                        onclick="document.getElementById('buffet').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" onclick="document.getElementById('buffet').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/buffet.webp" alt="pos" width="90%" class="imgshadow"><br />
-                        <b style="color: #000;font-size: 14px;">บุฟเฟต์</b>
+                        <b style="color: #000;font-size: 3vw;">บุฟเฟต์</b>
                 </div>
             </div>
         </div>
@@ -50,23 +47,20 @@
             <h1>ระบบร้านอาหารครบวงจร</h1>
             <div class="row">
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-pos').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/cashier.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-apple-app-store.webp" alt="pos" width="20px">
                         <img src="images/logo-google-play-store.webp" alt="pos" width="20px">
                         <img src="images/logo-windows.webp" alt="pos" width="20px">
                         <img src="images/logo-ubuntu.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>ระบบ Cashier</b><br />
-                            <div style="font-size: 12px;">ดูแลเงินสด</div>
-                        </div>
+                        <div class="listheader">
+                            ระบบ Cashier</div>
+                        <div class="listdetail">ดูแลเงินสด</div>
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-merchant').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-merchant').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/merchant.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-apple-app-store.webp" alt="pos" width="20px">
                         <img src="images/logo-google-play-store.webp" alt="pos" width="20px">
@@ -74,142 +68,122 @@
                         <img src="images/logo-browser-chrome.webp" alt="pos" width="20px">
                         <img src="images/logo-browser-safari.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>ระบบ Merchant</b><br />
-                            <div style="font-size: 12px;">จัดการหลังบ้าน</div>
-                        </div>
+                        <div class="listheader">
+                            ระบบ Merchant</div>
+                            <div class="listdetail">จัดการหลังบ้าน</div>
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-customer-display').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-customer-display').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/customer-display.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-apple-app-store.webp" alt="pos" width="20px">
                         <img src="images/logo-google-play-store.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>Customer Display</b><br />
-                            <div style="font-size: 12px;">หน้าจอฝั่งลูกค้า</div>
-                        </div>
+                        <div class="listheader">
+                            Customer Display</div>
+                            <div class="listdetail">หน้าจอฝั่งลูกค้า</div>                        
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-staff').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-staff').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/staff-system.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-apple-app-store.webp" alt="pos" width="20px">
                         <img src="images/logo-google-play-store.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>ระบบ Staff</b><br />
-                            <div style="font-size: 12px;">สำหรับพนักงานบริการ</div>
-                        </div>
+                        <div class="listheader">
+                            ระบบ Staff</div>
+                            <div class="listdetail">สำหรับพนักงานบริการ</div>                        
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-kds').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-kds').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/kds-system.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-apple-app-store.webp" alt="pos" width="20px">
                         <img src="images/logo-google-play-store.webp" alt="pos" width="20px">
                         </br>
-                        <b style="color: #000;font-size: 14px;">ระบบห้องครัว (KDS)</b><br />
-                        <div style="font-size: 12px;">สำหรับพ่อครัว</div>
+                        <div class="listheader">ระบบห้องครัว (KDS)</div>
+                        <div class="listdetail">สำหรับพ่อครัว</div>
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-delivery').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-delivery').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/delivery-system.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-apple-app-store.webp" alt="pos" width="20px">
                         <img src="images/logo-google-play-store.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>ระบบจัดการ Delivery</b><br />
-                            <div style="font-size: 12px;">จัดคิวการส่งอาหาร</div>
-                        </div>
+                        <div class="listheader">ระบบจัดการ Delivery</div>
+                            <div class="listdetail">จัดคิวการส่งอาหาร</div>                        
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-queue').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-queue').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/queue-system.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-apple-app-store.webp" alt="pos" width="20px">
                         <img src="images/logo-google-play-store.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>ระบบ Queue</b><br />
-                            <div style="font-size: 12px;">จัดคิวลูกค้าพร้อมแจ้งเตือน</div>
-                        </div>
+                        <div class="listheader">ระบบ Queue</div>
+                            <div class="listdetail">จัดคิวลูกค้าพร้อมแจ้งเตือน</div>
+                        
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-self-order').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-self-order').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/self-order.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-browser-chrome.webp" alt="pos" width="20px">
                         <img src="images/logo-browser-safari.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>ระบบลูกค้าสั่งเอง</b><br />
-                            <div style="font-size: 12px;">ด้วย QR Code</div>
-                        </div>
+                        <div class="listheader">ระบบลูกค้าสั่งเอง</div>
+                            <div class="listdetail">ด้วย QR Code</div>
+                        
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-crm').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-crm').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/crm.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-browser-chrome.webp" alt="pos" width="20px">
                         <img src="images/logo-browser-safari.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>ระบบ CRM</b><br />
-                            <div style="font-size: 12px;">ประวัติลูกค้า<br />สถิติการใช้บริการ</div>
-                        </div>
+                        <div class="listheader">
+                            ระบบ CRM</div>
+                            <div class="listdetail">ประวัติลูกค้า<br />สถิติการใช้บริการ</div>
+                        
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-account').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-account').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/account-system.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-apple-app-store.webp" alt="pos" width="20px">
                         <img src="images/logo-google-play-store.webp" alt="pos" width="20px">
                         <img src="images/logo-browser-chrome.webp" alt="pos" width="20px">
                         <img src="images/logo-browser-safari.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>ระบบบัญชี</b><br />
-                            <div style="font-size: 12px;">สต๊อก, เจ้าหนี้, ลูกหนี้, เงินสด, ธนาคาร, ปิดงบ</div>
-                        </div>
+                        <div class="listheader">
+                            ระบบบัญชี</div>
+                            <div class="listdetail">สต๊อก, เจ้าหนี้, ลูกหนี้, เงินสด, ธนาคาร, ปิดงบ</div>                        
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-owner').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-owner').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/owner-system.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-apple-app-store.webp" alt="pos" width="20px">
                         <img src="images/logo-google-play-store.webp" alt="pos" width="20px">
                         <img src="images/logo-browser-chrome.webp" alt="pos" width="20px">
                         <img src="images/logo-browser-safari.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>ระบบ Owner</b><br />
-                            <div style="font-size: 12px;">เจ้าของร้าน</div>
-                        </div>
+                        <div class="listheader">
+                            ระบบ Owner</div>
+                            <div class="listdetail">เจ้าของร้าน</div>                        
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('dede-franchise').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('dede-franchise').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/franchise.webp" alt="pos" width="90%" class="imgshadow"><br />
                         <img src="images/logo-browser-chrome.webp" alt="pos" width="20px">
                         <img src="images/logo-browser-safari.webp" alt="pos" width="20px">
                         </br>
-                        <div style="color: #000;font-size: 14px;">
-                            <b>ระบบแฟรนไชส์</b><br />
-                            <div style="font-size: 12px;">ดูแลร้านสมาชิก</div>
-                        </div>
+                        <div class="listheader">
+                            ระบบแฟรนไชส์</div>
+                            <div class="listdetail">ดูแลร้านสมาชิก</div>                        
                     </button>
                 </div>
             </div>
@@ -220,8 +194,7 @@
             <h1>คุณสมบัติ</h1>
             <div class="row">
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('multi-language').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('multi-language').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/tourists.webp" alt="pos" width="100%" class="imgshadow"><br />
                         <div style="color: #000;font-size: 12px;">
                             <b>รองรับหลายภาษา</b><br />นักท่องเที่ยวต่างชาติ<br />
@@ -230,10 +203,8 @@
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('data-center').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                        <img src="images/restaurant_data_synchronization.webp" alt="pos" width="100%"
-                            class="imgshadow"><br />
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('data-center').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                        <img src="images/restaurant_data_synchronization.webp" alt="pos" width="100%" class="imgshadow"><br />
                         <div style="color: #000;font-size: 12px;">
                             <b>เชื่อมข้อมูลทั่วโลก</b><br />ข้อมูลเชื่อมถึงกันทันที<br />Internet
                             เสีย<br />ก็ยังใช้ระบบได้
@@ -241,8 +212,7 @@
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('data-center-management').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('data-center-management').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/chain.webp" alt="pos" width="100%" class="imgshadow"><br />
                         <div style="color: #000;font-size: 12px;">
                             <b>จัดการสาขาได้ทั่วโลก</b><br />ภาษาของสำนักงานใหญ่<br />และภาษาของสาขา<br />Data
@@ -251,8 +221,7 @@
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('multi-device').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('multi-device').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/multi-device.webp" alt="pos" width="100%" class="imgshadow"><br />
                         <div style="color: #000;font-size: 12px;">
                             <b>หลากหลายอุปกรณ์</b><br />Windows, Ubuntu<br />Andoid, iOS, Browser
@@ -260,8 +229,7 @@
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('cook-helper').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('cook-helper').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/cook.webp" alt="pos" width="100%" class="imgshadow"><br />
                         <div style="color: #000;font-size: 12px;">
                             <b>ผู้ช่วยกุ๊ก</b><br />พูดชื่ออาหารได้<br />จัดคิวประกอบอาหาร<br />ตามอาหารช้าอัตโนมัติ
@@ -269,8 +237,7 @@
                     </button>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12 py-2">
-                    <button class="buttonhome" style="width: 100%;"
-                        onclick="document.getElementById('pay-at-table').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
+                    <button class="buttonhome" style="width: 100%;" onclick="document.getElementById('pay-at-table').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
                         <img src="images/pay-at-table.webp" alt="pos" width="100%" class="imgshadow"><br />
                         <div style="color: #000;font-size: 12px;">
                             <b>รับชำระเงินที่โต๊ะลูกค้า</b><br />รับเป็นเงินสด<br />Qr Prompt
@@ -282,8 +249,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="eat-and-pay">
-            <img src="images/eat-and-pay.webp" alt="กินก่อนจ่าย" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/eat-and-pay.webp" alt="กินก่อนจ่าย" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>กินก่อนจ่าย</h2>
                 <ul style="padding: 20px;">
@@ -309,8 +275,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="pay-and-eat">
-            <img src="images/pay-and-eat.webp" alt="จ่ายก่อนกิน" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/pay-and-eat.webp" alt="จ่ายก่อนกิน" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>จ่ายก่อนกิน</h2>
                 <ul style="padding: 20px;">
@@ -330,8 +295,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="buffet">
-            <img src="images/buffet.webp" alt="บุฟเฟต์" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/buffet.webp" alt="บุฟเฟต์" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>บุฟเฟต์</h2>
                 <ul style="padding: 20px;">
@@ -349,8 +313,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-pos">
-            <img src="images/cashier.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/cashier.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe POS (Cashier)</h2>
                 <ul style="padding: 20px;">
@@ -366,8 +329,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-merchanrt" style="min-height: 210px;">
-            <img src="images/merchant.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/merchant.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe Merchant</h2>
                 ระบบจัดการหลังบ้าน กำหนดรายละเอียดกิจการ รูปแบบกิจการ รายละเอียดสินค้า รูปภาพสินค้า จัดกลุ่มสินค้า
@@ -382,8 +344,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-customer-display" style="min-height: 210px;">
-            <img src="images/customer-display.webp" alt="point of sale" width="200px"
-                style="float: right;padding: 10px;" class="imgshadow">
+            <img src="images/customer-display.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe Customer Display</h2>
                 สำหรับ Andoird หรือ iOs แสดงหน้าจอสำหรับให้ลูกค้าดูรายการที่กำลังขาย ราคา จำนวน รวมราคา<br />
@@ -396,8 +357,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-staff" style="min-height: 210px;">
-            <img src="images/staff-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/staff-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe Staff</h2>
                 เป็น App ที่ทำงานบนระบบมือถือ iOS, Android เพื่อให้พนักงานบริการสามารถให้บริการได้สะดวก รวดเร็ว
@@ -412,8 +372,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-kds" style="min-height: 210px;">
-            <img src="images/kds-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/kds-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe KDS</h2>
                 ระบบ Kitchen Display System สำหรับห้องครัว และกุ๊ก โดยระบบจะแสดงคิวรายการประกอบอาหาร
@@ -425,8 +384,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-delivery" style="min-height: 210px;">
-            <img src="images/delivery-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/delivery-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe Delivery</h2>
                 สามารถเปิด Job ตามรายการสั่งอาหารจาก Platform Delivery สามารถสั่งอาหารตาม Order
@@ -436,8 +394,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-queue" style="min-height: 210px;">
-            <img src="images/queue-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/queue-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe Queue</h2>
                 ลูกค้าสามารถ Scan Qr Code เพื่อจองคิวได้เอง หรือให้พนักงานกดจองคิวให้ก็ได้ เมื่อถึงคิว
@@ -447,8 +404,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-self-order" style="min-height: 210px;">
-            <img src="images/self-order.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/self-order.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe Self Ordering</h2>
                 ลูกค้าสามารถ Scan Qr Code ด้วยมือถือส่วนตัว เพื่อสั่งอาหารได้เอง สามารถติดตามได้ว่าอาหารเสริฟหรือยัง
@@ -458,8 +414,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-crm" style="min-height: 210px;">
-            <img src="images/crm.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/crm.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe CRM</h2>
                 Customer Relation Management ระบบบริหารความสัมพันธ์กับลูกค้า สามารถเก็บรายละเอียดของลูกค้า
@@ -469,8 +424,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-account" style="min-height: 210px;">
-            <img src="images/account-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/account-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe Account</h2>
                 ระบบบัญชีสำหรับร้านอาหาร ออกแบบมาเพื่อร้านอาหารที่ต้องการทำระบบเต็มรูปแบบ เพื่อให้การจัดการเป็นโดยมีระบบ
@@ -500,8 +454,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-owner" style="min-height: 210px;">
-            <img src="images/owner-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/owner-system.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>DeDe Owner</h2>
                 โปรแกรมสำหรับเจ้าของร้านอาหาร ที่ต้องการตรวจสอบการทำงานของร้านอาหาร และต้องการรายงานการทำงานของร้านอาหาร
@@ -512,8 +465,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="dede-franchise" style="min-height: 210px;">
-            <img src="images/franchise.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/franchise.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>แฟรนไชส์</h2>
                 สามารถส่งรายการสินค้าใหม่ เพื่อเตรียมตัวในการขายสินค้าใหม่ สามารถแก้ไขราคาขาย หรือส่วนลดได้
@@ -524,8 +476,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="multi-language" style="min-height: 210px;">
-            <img src="images/tourists.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/tourists.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>รองรับหลายภาษา</h2>
                 สามารถกำหนดลำดับของภาษาได้ เช่น ภาษาไทย, ภาษาอังกฤษ, ภาษาจีน, ภาษาญี่ปุ่น ไม่จำกัดจำนวนภาษา
@@ -537,8 +488,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="data-center" style="min-height: 210px;">
-            <img src="images/restaurant_data_synchronization.webp" alt="point of sale" width="200px"
-                style="float: right;padding: 10px;" class="imgshadow">
+            <img src="images/restaurant_data_synchronization.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>เชื่อมข้อมูลทั่วโลก</h2>
                 สามารเชื่อมข้อมูลทั่วโลกได้ทันทีแบบ Real Time ไม่ว่าจะเป็นการเพิ่มสินค้าใหม่ การกำหนดราคาใหม่
@@ -550,8 +500,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="data-center-management" style="min-height: 210px;">
-            <img src="images/chain.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/chain.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>จัดการสาขาได้ทั่วโลก</h2>
                 กรณีที่มีสาขาอยู่ต่างประเทศ ต่างภาษา ต่างโซนเวลา ต่างระบบภาษี ต่างระบบการชำระเงิน
@@ -566,8 +515,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="multi-device" style="min-height: 210px;">
-            <img src="images/multi-device.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/multi-device.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>หลากหลายอุปกรณ์</h2>
                 โปรแกรมออกแบบมาเพื่อให้สามารถใช้งานได้หลากหลายอุปกรณ์ เพื่อความสะดวกในการใช้งานเช่น สามารถใช้ได้กับ
@@ -584,8 +532,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="cook-helper" style="min-height: 210px;">
-            <img src="images/cook.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/cook.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>ผู้ช่วยกุ๊ก</h2>
                 จัดคิวการประกอบอาหาร พร้อมรายการละเอียดการประกอบอาหาร เช่น เผ็ดมาก ไม่เค็ม
@@ -597,8 +544,7 @@
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" id="pay-at-table" style="min-height: 210px;">
-            <img src="images/pay-at-table.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;"
-                class="imgshadow">
+            <img src="images/pay-at-table.webp" alt="point of sale" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
                 <h2>รับชำระเงินที่โต๊ะลูกค้า</h2>
                 เมื่อลูกค้ากดชำระเงินที่ระบบ Self Ordering หรือเรียกพนักงานบริการเพื่อเก็บเงิน พนักงานสามารถแสดงรายการ
@@ -612,8 +558,7 @@
         </div>
         <?php include('include/footer.php'); ?>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </body>

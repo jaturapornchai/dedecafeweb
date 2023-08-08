@@ -1,5 +1,5 @@
 body {
-  font-family: 'Mitr', sans-serif;
+  font-family: 'Mitr', sans-serif;  
 }
 
 .button {
@@ -45,7 +45,7 @@ span {
 
 .buttonhome:hover {
   background-color: #e2f1e2;
-  color: white;
+  color: black;
   transform: scale(1.05);
 }
 
@@ -53,7 +53,7 @@ span {
   border: 2px solid #e3e3eb;
   background: no-repeat;
   box-shadow: 2px 2px 1px #ccc;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 10px 0px;
   -moz-box-shadow: 2px 2px 1px #e0d3d3;
   -webkit-box-shadow: 2px 2px 1px #ccc;
   -khtml-box-shadow: 2px 2px 1px #ccc;
@@ -90,7 +90,15 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-family: 'Mitr', sans-serif;
 }
 
+.listheader {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
 
+.listdetail {
+  font-size: 18px;
+  color: #000000;
+}

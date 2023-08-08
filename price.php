@@ -1,9 +1,9 @@
 <?php 
     $title="DeDe Pos Cafe : Price";
-    include('include/header.php'); 
+    include('header.php'); 
 ?>
 <body>
-    <?php include('include/menu.php'); ?>
+    <?php include('menu.php'); ?>
     <div class="container" style="margin-top: 100px;font-size: 12px;">
         <table style="width: 100%;">
             <thead style="border-bottom: 1pt solid gray">

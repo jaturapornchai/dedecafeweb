@@ -7,7 +7,7 @@
         <p style="font-size: 18px; color: white;"><b>Line ID : @dedeposcafe</b></p>
         <p style="font-size: 18px; color: white;"><img src="images/telephone-icon.webp" alt="pos" width="24px">&nbsp;<b>089-922-3131</b></p>
         <div style="color: white;"><b>บริษัท บ้านเชียงซอฟท์ จำกัด</b><br />
-            141/469 หมู่ที่ 2 ต.ต้นเปา<br/>อ.สันกำแพง จ.เชียงใหม่ 50130</div>
+        อาคารซอฟท์แวร์พาร์ค ชั้น 7 ถ.แจ้งวัฒนะ ต.คลองเกลือ<br/>อ.ปากเกร็ด จ.นนทบุรี 11120</div>
         <br />
         <a href="https://www.facebook.com/people/DEDE-POS-Cafe/100094264791299/" target="_blank"><img src="images/facebook-logo.webp" alt="pos" width="50px" height="50px"></a>
         <a href="https://www.facebook.com/people/DEDE-POS-Cafe/100094264791299/" target="_blank"><img src="images/youtube-logo.webp" alt="pos" width="50px" height="50px"></a>

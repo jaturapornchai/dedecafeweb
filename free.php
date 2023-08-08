@@ -1,10 +1,10 @@
 <?php 
     $title="DeDe Pos Cafe : Free";
-    include('include/header.php'); 
+    include('header.php'); 
 ?>
 
 <body>
-    <?php include('include/menu.php'); ?>
+    <?php include('menu.php'); ?>
     <div class="container" style="margin-top: 100px;font-size: 12px;">
         <h1>เงื่อนไขการใช้ฟรี</h1>
         <br />
