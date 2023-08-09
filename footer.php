@@ -12,7 +12,7 @@
         <a href="https://www.facebook.com/people/DEDE-POS-Cafe/100094264791299/" target="_blank"><img src="images/facebook-logo.webp" alt="pos" width="50px" height="50px"></a>
         <a href="https://www.facebook.com/people/DEDE-POS-Cafe/100094264791299/" target="_blank"><img src="images/youtube-logo.webp" alt="pos" width="50px" height="50px"></a>
         <br /><br />
-        <div style="color: white;font-size:10px;">Copyright © 2023 BanChiangSoft Co.,Ltd. All Rights Reserved.</div>
+        <div style="color: white;font-size:10px;">Copyright © 2023 Ban Chiang Soft Co.,Ltd. All Rights Reserved.</div>
         <br /> <br />
     </div>
 </div>
@@ -22,6 +22,11 @@
 <a href="https://line.me/ti/p/%40dedeposcafe" style="position:fixed;bottom:30px;right:10px;">
     <img src="/images/line-logo.webp" alt="pos" width="50px">
 </a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fitty/2.2.6/fitty.min.js"></script>
+<script>
+    fitty('.fit-text');
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GC5L5GNXB7"></script>
 <script>

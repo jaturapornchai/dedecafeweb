@@ -81,7 +81,6 @@ span {
 }
 
 h1 {
-  font-size: 4vw;
   color: blue;
   text-shadow: 2px 2px #9a9e84d7;
   text-align: center;
@@ -96,6 +95,8 @@ h2 {
   font-weight: bold;
   font-size: 24px;
   color: black;
+  padding-left: 20px;
+  padding-right: 30px;
 }
 
 .listdetail {

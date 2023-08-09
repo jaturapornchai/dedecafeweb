@@ -19,9 +19,9 @@
                 <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
                     <td><b>ราคา</b></td>
                     <td style="text-align: center;">ฟรี</td>
-                    <td style="text-align: center;">490 บาท/เดือน<br><div style="color: red;font-size:10px;">ลด 40%<br/>เหลือเพียง 3,528 บาท/ปี</div></td>
-                    <td style="text-align: center;">990 บาท/เดือน<br><div style="color: red;font-size:10px;">ลด 40%<br/>เหลือเพียง 4,752 บาท/ปี</div></td>
-                    <td style="text-align: center;">1,490 บาท/เดือน<br><div style="color: red;font-size:10px;">ลด 40%<br/>เหลือเพียง 7,152 บาท/ปี</div></td>
+                    <td style="text-align: center;">490 บาท/เดือน<br><div style="color: red;font-size:10px;">รายปีลด 40%<br/>เหลือเพียง 3,528 บาท/ปี</div></td>
+                    <td style="text-align: center;">990 บาท/เดือน<br><div style="color: red;font-size:10px;">รายปีลด 40%<br/>เหลือเพียง 4,752 บาท/ปี</div></td>
+                    <td style="text-align: center;">1,490 บาท/เดือน<br><div style="color: red;font-size:10px;">รายปีลด 40%<br/>เหลือเพียง 7,152 บาท/ปี</div></td>
                 </tr>
                 <tr style="border-bottom: 1px solid rgb(196, 191, 191);">
                     <td><b>จำนวนโต๊ะสูงสุด</b></td>
@@ -90,7 +90,7 @@
         </table>
     </div>
 
-    <?php include_once('include/footer.php'); ?>
+    <?php include_once('footer.php'); ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
