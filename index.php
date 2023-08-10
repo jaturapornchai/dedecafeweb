@@ -23,6 +23,10 @@ include('header.php');
                 <img src="images/logo-ubuntu.webp" alt="linux" width="40px;">
             </div>
         </div>
+        <div class="container" style="width: auto;padding: 10px;height: auto;">
+            ร้านที่อยู่ในเขต อำเภอเมือง จังหวัดเชียงใหม่ มีบริการเสริม ให้คำปรึกษาฟรี, ติดตั้งฟรี, อบรมฟรี, บริการ ฟรี ถึงสิ้นปีนี้เท่านั้น
+        </div>
+        <hr style="border: 1px solid #000;" />
         <div class="container" style="width: auto;padding: 0px;height: auto;padding-top: 18px;">
             <div style="max-width: 500px; margin:0 auto;">
                 <h1 class="fit-text">รองรับรูปแบบร้านอาหาร</h1>
