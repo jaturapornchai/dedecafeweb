@@ -22,6 +22,8 @@
 <a href="https://line.me/ti/p/%40dedeposcafe" style="position:fixed;bottom:30px;right:10px;">
     <img src="/images/line-logo.webp" alt="pos" width="50px">
 </a>
+
+<a href="/articleview">บทความ</a>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fitty/2.2.6/fitty.min.js"></script>
 <script>
