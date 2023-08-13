@@ -23,7 +23,7 @@
     <img src="/images/line-logo.webp" alt="pos" width="50px">
 </a>
 
-<a href="/articleview">บทความ</a>
+<a href="/articleview">บทความ</a>&nbsp;<a href="/recipeview">สูตร</a>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fitty/2.2.6/fitty.min.js"></script>
 <script>
