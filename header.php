@@ -1,7 +1,7 @@
 <?php
     header('Content-Type: text/html; charset=UTF-8');
     if (empty($keyword)) {
-        $keyword = "โปรแกรมร้านอาหาร, สั่งอาหารด้วยมือถือ, กินก่อนจ่าย, จ่ายก่อนกิน, บุฟเฟต์, android, ios, windows, ubuntu, Ban Chiang Soft";
+        $keyword = "โปรแกรมร้านอาหาร, สั่งอาหารด้วยมือถือ, กินก่อนจ่าย, จ่ายก่อนกิน, บุฟเฟต์, android, ios, windows, ubuntu, ipad";
     }
 ?>
 <!doctype html>
