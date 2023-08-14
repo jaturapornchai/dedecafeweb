@@ -18,6 +18,9 @@
                     <a class="nav-link" href="#">คู่มือ/วิดีโอ</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="knowledgeview">บทความ</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#contact">ติดต่อเรา</a>
                 </li>
                 <li class="nav-item">

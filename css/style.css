@@ -91,6 +91,14 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  display:inline; 
+}
+
 .listheader {
   font-weight: bold;
   font-size: 24px;
