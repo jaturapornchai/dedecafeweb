@@ -1,8 +1,7 @@
 <?php
 $title = "DeDe Pos Cafe Recipe";
-if (isset($_GET['page'])) {
-    $title = $_GET['page'];
-}
+$page = "";
+$keyword = "";
 include('header.php');
 ?>
 
