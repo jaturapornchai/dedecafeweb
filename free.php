@@ -37,3 +37,4 @@
 </body>
 
 </html>
+<?php include('footer-script.php'); ?>

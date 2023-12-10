@@ -1,8 +1,8 @@
 <?php
-$title = "DeDe Pos Cafe Recipe";
+$title = "DeDe Pos Cafe : Knowledge";
 $page = "";
 $keyword = "";
-$dir = "recipe";
+$dir = "knowledge";
 include('genkeyword.php');
 include('header.php');
 ?>
@@ -11,18 +11,14 @@ include('header.php');
     <?php include('menu.php'); ?>
     <div class="container" style="margin-top: 100px;font-size: 12px;">
         <?php
-        echo "<h1>$page</h1><br/>";                
-        echo "<div style='font-size: 24px;'>";
+        echo "<h1>$header</h1><br/>";                
+        echo "<div style='font-size: 14px;'>";
         echo $content;
         echo "</div>";
-        echo "<br/><br/>";
-        $files = scandir($dir);
-        foreach ($files as $file) {
-            if ($file == '.' || $file == '..') continue;
-            $file = str_replace('.html', '', $file);
-            echo '<a href="recipeview?page=' . $file . '">' . $file . '</a> : ';
-        }
+        echo "<br/><br/>";        
         ?>
+        <a href="manualvideo/pos">Point of Sale</a>
+        <br />
     </div>
     <?php include_once('footer.php'); ?>
 

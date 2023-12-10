@@ -12,49 +12,56 @@ include('header.php');
                 <div style="font-size:5vw;text-shadow: 4px 4px #000;color: white;">
                     <b><span>ระบบร้านอาหารครบวงจร</span></b>
                 </div>
-                <div style="font-size:2vw;text-shadow: 2px 2px #000;color: white;">
-                    ช่วยให้การบริหารจัดการร้านอาหารของคุณง่ายขึ้น</div><br />
-                <a href="https://www.dedecafe.com/order/" target="_blank" class="button">ทดลองใช้ระบบสั่งอาหาร (Self
-                    Ordering)</a><br /><br />
-                <a href="https://www.dedecafe.com/free" class="button">สมัครใช้ฟรี</a><br /><br />
+                
+                <!--
+                <a href="https://www.dedecafe.com/free" class="button">สมัคร</a><br /><br />
                 <img src="images/logo-apple-app-store.webp" alt="app store" width="40px;">
                 <img src="images/logo-google-play-store.webp" alt="google play store" width="40px;">
                 <img src="images/logo-windows.webp" alt="windows" width="40px;">
                 <img src="images/logo-ubuntu.webp" alt="linux" width="40px;">
+                -->
             </div>
         </div>
-        <div class="container" style="width: auto;padding: 10px;height: auto;">
-            ร้านที่อยู่ในเขต อำเภอเมือง จังหวัดเชียงใหม่ มีบริการเสริม ให้คำปรึกษาฟรี, ติดตั้งฟรี, อบรมฟรี, บริการ ฟรี ถึงสิ้นปีนี้เท่านั้น
-        </div>
-        <hr style="border: 1px solid #000;" />
-        <div class="container" style="width: auto;padding: 0px;height: auto;padding-top: 18px;">
-            <div style="max-width: 500px; margin:0 auto;">
+        <div class="container" style="width: auto; padding: 0px; height: auto; padding-top: 18px;; padding-left: 15px;; padding-right: 15px;">
+            <div style="max-width: 400px; margin:0 auto;">
                 <h1 class="fit-text">รองรับรูปแบบร้านอาหาร</h1>
             </div>
-            <div class="row">
-                <div class="col">
-                    <button class="buttonhome"
-                        onclick="document.getElementById('eat-and-pay').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                        <img src="images/eat-and-pay.webp" alt="กินก่อนจ่าย" width="90%" class="imgshadow"><br />
-                        <b style="color: #000;font-size: 3vw;">กินก่อนจ่าย</b>
+            <div class="row" style="margin-right: -15px; margin-left: -15px;">
+                <div class="col" style="padding: 0;">
+                    <button class="buttonhome" onclick="window.location.href='/small-fast-food';">
+                        <img src="images/cook.webp" alt="kiosk" width="100%" class="imgshadow"><br />
+                        <b style="color: #000;font-size: 2vw;">ร้านขนาดเล็ก</b>
+                    </button>
                 </div>
-                <div class="col">
-                    <button class="buttonhome"
-                        onclick="document.getElementById('pay-and-eat').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                        <img src="images/pay-and-eat.webp" alt="จ่ายก่อนกิน" width="90%" class="imgshadow"><br />
-                        <b style="color: #000;font-size: 3vw;">จ่ายก่อนกิน</b>
+                <div class="col" style="padding: 0;">
+                    <button class="buttonhome" onclick="window.location.href='/kiosk';">
+                        <img src="images/kiosk-food-truck.webp" alt="kiosk" width="100%" class="imgshadow"><br />
+                        <b style="color: #000;font-size: 2vw;">Kiosk</b>
+                    </button>
                 </div>
-                <div class="col">
-                    <button class="buttonhome"
-                        onclick="document.getElementById('buffet').scrollIntoView({ behavior: 'smooth', block: 'end',inline: 'nearest'});">
-                        <img src="images/buffet.webp" alt="บุฟเฟต์" width="90%" class="imgshadow"><br />
-                        <b style="color: #000;font-size: 3vw;">บุฟเฟต์</b>
+                <div class="col" style="padding: 0;">
+                    <button class="buttonhome" onclick="document.getElementById('eat-and-pay').scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest'});">
+                        <img src="images/eat-and-pay.webp" alt="กินก่อนจ่าย" width="100%" class="imgshadow"><br />
+                        <b style="color: #000;font-size: 2vw;">กินก่อนจ่าย</b>
+                    </button>
+                </div>
+                <div class="col" style="padding: 0;">
+                    <button class="buttonhome" onclick="document.getElementById('pay-and-eat').scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest'});">
+                        <img src="images/pay-and-eat.webp" alt="จ่ายก่อนกิน" width="100%" class="imgshadow"><br />
+                        <b style="color: #000;font-size: 2vw;">จ่ายก่อนกิน</b>
+                    </button>
+                </div>
+                <div class="col" style="padding: 0;">
+                    <button class="buttonhome" onclick="document.getElementById('buffet').scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest'});">
+                        <img src="images/buffet.webp" alt="บุฟเฟต์" width="100%" class="imgshadow"><br />
+                        <b style="color: #000;font-size: 2vw;">บุฟเฟต์</b>
+                    </button>
                 </div>
             </div>
         </div>
         <hr style="border: 1px solid #000;" />
         <div class="container" style="width: auto;padding: 0px;height: auto;">
-            <div style="max-width: 500px; margin:0 auto;">
+            <div style="max-width: 400px; margin:0 auto;">
                 <h1 class="fit-text">ระบบร้านอาหารครบวงจร</h1>
             </div>
             <div class="row">
@@ -215,7 +222,7 @@ include('header.php');
         <hr style="border: 1px solid #000;" />
         <br />
         <div class="container" style="width: auto;padding: 0px;height: auto;">
-            <div style="max-width: 300px; margin:0 auto;">
+            <div style="max-width: 200px; margin:0 auto;">
                 <h1 class="fit-text">คุณสมบัติทั่วไป</h1>
             </div>
             <div class="row">
@@ -616,10 +623,8 @@ include('header.php');
         </div>
         <?php include('footer.php'); ?>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </body>
 
 </html>
+
+<?php include('footer-script.php'); ?>

@@ -23,18 +23,4 @@
     <img src="/images/line-logo.webp" alt="pos" width="50px">
 </a>
 
-<a href="/articleview">บทความ</a>&nbsp;<a href="/recipeview">สูตร</a>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fitty/2.2.6/fitty.min.js"></script>
-<script>
-    fitty('.fit-text');
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GC5L5GNXB7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GC5L5GNXB7');
-</script>
+<a href="/articleview">บทความ</a>&nbsp;<a href="/recipeview">สูตร</a>&nbsp;<a href="/download">Download</a>

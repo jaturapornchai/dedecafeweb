@@ -15,7 +15,7 @@
                     <a class="nav-link" href="/price">ราคา</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">คู่มือ/วิดีโอ</a>
+                    <a class="nav-link" href="manual">คู่มือ/วิดีโอ</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="knowledgeview">บทความ</a>

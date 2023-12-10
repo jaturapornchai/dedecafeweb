@@ -13,7 +13,6 @@ include('header.php');
         <?php
         echo "<h1>$header</h1><br/>";                
         echo "<div style='font-size: 14px;'>";
-        echo "<img src='knowledge/" . $page . ".png' style='width: 40%;margin-left:10px;' ALIGN='right' class='imgshadow' alt='" . $_GET['name'] . "'>";
         echo $content;
         echo "</div>";
         echo "<br/><br/>";
@@ -37,3 +36,4 @@ include('header.php');
 </body>
 
 </html>
+<?php include('footer-script.php'); ?>

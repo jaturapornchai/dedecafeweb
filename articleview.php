@@ -34,3 +34,4 @@ include('header.php');
 
 </html>
 
+<?php include('footer-script.php'); ?>
