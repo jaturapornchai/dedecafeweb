@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg" style="background-color: white;">
+<nav class="navbar navbar-expand-lg" style="background-color: white;padding:0px;">
     <div class="container" style="padding:0px;">
         <a class="navbar-brand" href="/"><img src="images/logo.webp" class="shadow" alt="Logo"
                 width="50px;">&nbsp;<b>DeDe Pos Cafe</b></a>

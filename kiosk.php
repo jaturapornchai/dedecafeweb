@@ -5,7 +5,9 @@
 <body>
     <?php include('menu.php'); ?>
     <div class="container" style="margin-top: 100px;font-size: 12px;">
-        <h1>โปรแกรมใช้ฟรี... ไม่มีค่าใช้จ่าย</h1><br/>
+        โปรแกรม DeDe Kiosk ออกแบบมาสำหรับร้านอาหารขนาดเล็ก เช่น ร้านก๋วยเตี๋ยว ร้านอาหาหารตามสั่ง จ่ายก่อนกิน หรือกินก่อนจ่าย เพื่อลดต้นทุนพนักงาน และเพิ่มประสิทธิภาพในการให้บริการ โดยมีคุณสมบัติดังนี้
+        <br/><br/>
+        <h2>คุณสมบัติของระบบ</h2>
         <h2>ยืนยันการชำระเงินอัตโนมัติด้วย Qrcode</h2>
         เมื่อลูกค้าสั่งรายการอาหาร และเครื่องดื่มแล้ว สามารถชำระเงินด้วยระบบ Qrcode ได้ทันที รองรับการชำระเงินหลายระบบไม่ว่าจะเป็นระบบ Prompt Pay, Alipay, Wechat Pay, True Money และอื่นๆ ทำให้ลูกค้าสามารถชำระเงินได้ทันที ไม่ต้องรอคิวหรือติดต่อพนักงานแคชเชียร์ และเมื่อได้รับการยืนยันจากธนาคารแล้ว โปรแกรมจะพิมพ์ใบเสร็จ/ใบกำกับภาษีให้ลูกค้า พร้อมหมายเลขคิวให้กับลูกค้า และส่งรายการอาหาร และเครื่องดื่มไปยังครัว เพื่อประกอบอาหารทันที<br/>
         <br/><br/>
@@ -68,77 +70,6 @@
                 <i>* ระหว่างที่รอรับรายการ เครื่องจะแสดงโษณาขึ้นมาโดยอัตโนมัติ รองรับทั้งรูปภาพ และวิดีโอ</i><br/><br/>
             </li>
         </ol>
-    </div>
-
-    <div class="container" style="width: auto;padding: 0px;height: auto;padding-top: 18px;">
-        <div style="max-width: 500px; margin:0 auto;">
-            <h1 class="fit-text">รองรับรูปแบบร้านอาหาร</h1>
-        </div>
-        <div class="row">
-            <div class="col">
-                <button class="buttonhome"
-                    onclick="window.location.href='/kiosk-food-truck';">
-                    <img src="images/kiosk-food-truck.webp" alt="kiosk food truck" width="90%" class="imgshadow"><br />
-                    <b style="color: #000;font-size: 2vw;">Food Truck</b>
-            </div>
-            <div class="col">
-                <button class="buttonhome"
-                onclick="window.location.href='/kiosk-fast-food';">
-                    <img src="images/kiosk-fast-food.webp" alt="Fast Food" width="90%" class="imgshadow"><br />
-                    <b style="color: #000;font-size: 3vw;">Fast Food</b>
-            </div>
-            <div class="col">
-                <button class="buttonhome"
-                onclick="window.location.href='/kiosk-restaurant';">
-                    <img src="images/kiosk-restaurant.webp" alt="จ่ายก่อนกิน" width="90%" class="imgshadow"><br />
-                    <b style="color: #000;font-size: 3vw;">ร้านอาหาร</b>
-            </div>
-        </div>
-        <br/>
-        กรณีใช้บริการ Lugent Pay จะมีค่าธรรมเนียมดังนี้<br/>
-        <table width="100%" border="1" style="border-collapse: collapse; border: 1px solid black;">        
-            <tr>
-                <td align="center" style="border: 1px solid black;">
-                    <img src="images/logo-prompt-pay.webp" alt="Prompt Pay" width="50" height="50" /> Prompt Pay
-                </td>
-                <td align="center" style="border: 1px solid black;">
-                    1.75% 
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="border: 1px solid black;">
-                    <img src="images/logo-alipay.jpg" alt="Alipay" width="50" height="50" /> Alipay
-                </td>
-                <td align="center" style="border: 1px solid black;">
-                    2% 
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="border: 1px solid black;">
-                    <img src="images/logo-wechat-pay.jpeg" alt="Wechat Pay" width="50" height="50" /> Wechat Pay
-                </td>
-                <td align="center" style="border: 1px solid black;">
-                    2% 
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="border: 1px solid black;">
-                    <img src="images/logo-wechat-pay.jpeg" alt="Line Pay" width="50" height="50" /> Line Pay
-                </td>
-                <td align="center" style="border: 1px solid black;">
-                    3% 
-                </td>
-            </tr>
-            <tr>
-                <td align="center" style="border: 1px solid black;">
-                    <img src="images/logo-true-money.png" alt="True Money" width="50" height="50" /> True Money
-                </td>
-                <td align="center" style="border: 1px solid black;">
-                    3% 
-                </td>
-            </tr>
-        </table>
-
     </div>
 
     <?php include_once('footer.php'); ?>
