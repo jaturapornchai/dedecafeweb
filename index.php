@@ -1,6 +1,6 @@
 <?php
 $title = "DeDe Pos Cafe";
-include('header.php');
+include 'header.php';
 ?>
 
 <body>
@@ -22,6 +22,20 @@ include('header.php');
             </div>
         </div>
         <div class="container" style="width: auto; padding: 0px; height: auto; padding-top: 18px;; padding-left: 15px;; padding-right: 15px;">
+            <div class="row" style="margin-right: -15px; margin-left: -15px;">
+                <div class="col" style="padding: 0;">
+                    <button class="buttonhome" onclick="window.location.href='/free';">
+                        <img src="images/png/free.png" alt="kiosk" width="100%" class="imgshadow"><br />
+                        <b style="color: #000;font-size: 2vw;">ร้านอาหาร ใช้ฟรี</b>
+                    </button>
+                </div>
+                <div class="col" style="padding: 0;">
+                    <button class="buttonhome" onclick="window.location.href='/hardware';">
+                        <img src="images/png/hardware.png" alt="kiosk" width="100%" class="imgshadow"><br />
+                        <b style="color: #000;font-size: 2vw;">แนะนำอุปกรณ์</b>
+                    </button>
+                </div>
+            </div>
             <div style="max-width: 400px; margin:0 auto;">
                 <h1 class="fit-text">รองรับรูปแบบร้านอาหาร</h1>
             </div>

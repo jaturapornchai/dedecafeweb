@@ -15,16 +15,16 @@
                     <a class="nav-link" href="/price">ราคา</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="manual">คู่มือ/วิดีโอ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="knowledgeview">บทความ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">ติดต่อเรา</a>
+                    <a class="nav-link" href="https://drive.google.com/drive/folders/1clNxnVydeqtG1ZhnT5jjgr99m1g3oLuF?usp=sharing" target="_blank">Download</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://dedemerchant.web.app/" target="_blank">เข้าสู่ระบบ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.smlsoft.com" target="_blank">โปรแกรมบัญชี่</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.smlsoft.com" target="_blank">โปรแกรม POS</a>
                 </li>
             </ul>
         </div>
