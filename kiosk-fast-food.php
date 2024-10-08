@@ -1,9 +1,9 @@
 <?php 
     $title="DeDe Pos Cafe : Self Ordering Kiosk Station";
-    include('header.php'); 
+    include 'header.php'; 
 ?>
 <body>
-    <?php include('menu.php'); ?>
+    <?php include 'menu.php'; ?>
     <div class="container" style="margin-top: 100px;font-size: 12px;">
         <h1>ใช้ฟรี...ไม่มีค่าใช้จ่าย</h1>
         <h2>ระบบ Self Ordering Kiosk ที่ยืนยันการชำระเงินด้วย Prompt Pay การทำงานที่เร็วและทันสมัย</h2>        
@@ -74,4 +74,4 @@
 </body>
 
 </html>
-<?php include('footer-script.php'); ?>
+<?php include 'footer-script.php'; ?>

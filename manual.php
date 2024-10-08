@@ -4,11 +4,11 @@ $page = "";
 $keyword = "";
 $dir = "knowledge";
 include('genkeyword.php');
-include('header.php');
+include 'header.php';
 ?>
 
 <body>
-    <?php include('menu.php'); ?>
+    <?php include 'menu.php'; ?>
     <div class="container" style="margin-top: 100px;font-size: 12px;">
         <?php
         echo "<h1>$header</h1><br/>";                
@@ -28,4 +28,4 @@ include('header.php');
 </body>
 
 </html>
-<?php include('footer-script.php'); ?>
+<?php include 'footer-script.php'; ?>

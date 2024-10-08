@@ -1,9 +1,9 @@
 <?php 
     $title="DeDe Pos Cafe : Self Ordering Kiosk Station";
-    include('header.php'); 
+    include 'header.php'; 
 ?>
 <body>
-    <?php include('menu.php'); ?>
+    <?php include 'menu.php'; ?>
     <div class="container" style="margin-top: 100px;font-size: 12px;">
         <center>
         <img src="images/kiosk-food-truck.webp" style="margin-top: 20px; margin-bottom: 20px;max-width:400px;border: 1px solid #555;" class="shadow" alt="Self Ordering Kiosk"/>
@@ -69,4 +69,4 @@
 </body>
 
 </html>
-<?php include('footer-script.php'); ?>
+<?php include 'footer-script.php'; ?>

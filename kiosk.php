@@ -1,9 +1,9 @@
 <?php 
     $title="DeDe Pos Cafe : Self Ordering Kiosk Station";
-    include('header.php'); 
+    include 'header.php'; 
 ?>
 <body>
-    <?php include('menu.php'); ?>
+    <?php include 'menu.php'; ?>
     <div class="container" style="margin-top: 100px;font-size: 12px;">
         โปรแกรม DeDe Kiosk ออกแบบมาสำหรับร้านอาหารขนาดเล็ก เช่น ร้านก๋วยเตี๋ยว ร้านอาหาหารตามสั่ง จ่ายก่อนกิน หรือกินก่อนจ่าย เพื่อลดต้นทุนพนักงาน และเพิ่มประสิทธิภาพในการให้บริการ โดยมีคุณสมบัติดังนี้
         <br/><br/>
@@ -79,4 +79,4 @@
 </body>
 
 </html>
-<?php include('footer-script.php'); ?>
+<?php include 'footer-script.php'; ?>

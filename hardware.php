@@ -1,6 +1,6 @@
 <?php 
     $title = "DeDe Pos Cafe : Free";
-    include('header.php'); 
+    include 'header.php'; 
 ?>
 
 <style>
@@ -13,7 +13,7 @@
 </style>
 
 <body>
-    <?php include('menu.php'); ?>
+    <?php include 'menu.php'; ?>
     <div class="container py-5">
         <h1 class="text-center text-primary mb-5">อุปกรณ์ที่ใช้ได้กับระบบ KIOSK</h1>
         
@@ -51,4 +51,4 @@
 </body>
 
 </html>
-<?php include('footer-script.php'); ?>
+<?php include 'footer-script.php'; ?>

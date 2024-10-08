@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8');
 if (empty($keyword)) {
-    $keyword = "โปรแกรมร้านอาหาร, สั่งอาหารด้วยมือถือ, กินก่อนจ่าย, จ่ายก่อนกิน, บุฟเฟต์, android, ios, windows, ubuntu, ipad";
+    $keyword = "โปรแกรมร้านอาหาร, สั่งอาหารด้วยมือถือ, กินก่อนจ่าย, จ่ายก่อนกิน, บุฟเฟต์, android, ios, windows, ubuntu, ipad, ฟรี";
 }
 ?>
 <!doctype html>
@@ -10,7 +10,7 @@ if (empty($keyword)) {
 <head>
     <meta charset="utf-8">
     <title><?php echo $title; ?></title>
-    <meta name="description" content="โปรแกรมร้านอาหารที่ทันสมัย ใช้สำหรับสั่งอาหารด้วยมือถือได้ง่าย ไม่ว่าจะเป็นการสั่งอาหารเอง, กินก่อนจ่าย, จ่ายก่อนกิน หรือบุฟเฟต์ รองรับทั้ง android, ios, windows และ ubuntu">
+    <meta name="description" content="ใช้ฟรี โปรแกรมร้านอาหารที่ทันสมัย ใช้สำหรับสั่งอาหารด้วยมือถือได้ง่าย ไม่ว่าจะเป็นการสั่งอาหารเอง, กินก่อนจ่าย, จ่ายก่อนกิน หรือบุฟเฟต์ รองรับทั้ง android, ios, windows และ ubuntu">
     <?php
     echo '<meta name="keywords" content="' . $keyword . '">';
     ?>
@@ -23,6 +23,10 @@ if (empty($keyword)) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/png/free.png" type="image/png">
+    <meta property="og:image" content="https://www.dedecafe.com/images/png/free.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <?php
     // random guid by date time now
     $myuid = date('YmdHis');

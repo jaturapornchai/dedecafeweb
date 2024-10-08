@@ -1,10 +1,10 @@
 <?php
 $title = "DeDe Pos Cafe : ร้านอาหารขนาดเล็ก DeDe Order Station";
-include('header.php');
+include 'header.php';
 ?>
 
 <body>
-    <?php include('menu.php'); ?>
+    <?php include 'menu.php'; ?>
     <div class="container" style="margin-top: 80px;font-size: 12px;">
         <h1>โปรแกรม DeDe Order Station</h1>
         <h2>สำหรับร้านอาหารขนาดเล็ก 🍽️: ทำให้การบริการของคุณง่ายขึ้น!</h2>
@@ -54,4 +54,4 @@ include('header.php');
 </body>
 
 </html>
-<?php include('footer-script.php'); ?>
+<?php include 'footer-script.php'; ?>

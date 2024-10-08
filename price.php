@@ -1,6 +1,6 @@
 <?php 
     $title="DeDe Pos Cafe : Price";
-    include('header.php'); 
+    include 'header.php'; 
 ?>
 <body>
     <?php include 'menu.php'; ?>

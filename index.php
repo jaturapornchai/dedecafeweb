@@ -1,32 +1,50 @@
 <?php
-$title = "DeDe Pos Cafe";
+$title = "ฟรี โปรแกรมร้านอาหาร, POS";
 include 'header.php';
 ?>
 
 <body>
-    <?php include('menu.php'); ?>
+    <?php include 'menu.php'; ?>
     <div style="margin-top: 90px;">
         <div style="width: 100%;height: auto; padding: 10px;background-image: url('images/home-background.webp');background-repeat: no-repeat;background-size: cover;">
             <div class="container" style="width: auto;padding: 0px;height: auto;">
-                <div style="font-size:5vw;text-shadow: 4px 4px #000;color: white;">
-                    <b><span>ระบบร้านอาหารครบวงจร</span></b>
+                <div style="font-size:1vw;text-shadow: 2px 2px #000;color: white;">
+                    <b><span>ระบบร้านอาหารครบวงจร ร้านขนาดเล็ก, ขนาดใหญ่, หลายสาขา</span></b>
                 </div>
-
-                <!--
-                <a href="https://www.dedecafe.com/free" class="button">สมัคร</a><br /><br />
+                <div style="font-size:1vw;text-shadow: 2px 2px #000;color: white;">
+                    <b><span>iPhone, iPad, Android, Tablet, Windows ใช้ฟรี ใช้กับเครื่องเก่าได้ (ประหยัด)</span></b>
+                </div>
+                <br/>
                 <img src="images/logo-apple-app-store.webp" alt="app store" width="40px;">
                 <img src="images/logo-google-play-store.webp" alt="google play store" width="40px;">
                 <img src="images/logo-windows.webp" alt="windows" width="40px;">
                 <img src="images/logo-ubuntu.webp" alt="linux" width="40px;">
-                -->
+                <a href="https://dedemerchant.web.app/" class="button">สมัคร</a>
+            </div>
+        </div>
+        <div class="container" style="width: auto; padding: 0px; height: auto; padding-top: 18px; padding-left: 15px; padding-right: 15px;">
+            <div class="row" style="margin-right: -15px; margin-left: -15px;">
+                <div class="col" style="padding: 0;">
+                <div style="padding-bottom: 56.25%; position: relative;">
+    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/HRd3ZtZNQKY?autoplay=1&loop=1&mute=1&playlist=HRd3ZtZNQKY&controls=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+</div>
+
+                </div>
             </div>
         </div>
         <div class="container" style="width: auto; padding: 0px; height: auto; padding-top: 18px;; padding-left: 15px;; padding-right: 15px;">
+            ปรับตัวเพื่อการแข่งขัน เพื่อให้เป็นร้านอาหารอัตโนมัติ ลดต้นทุน เพิ่มรายได้ ด้วยระบบร้านอาหารครบวงจร ร้านขนาดเล็ก, ขนาดใหญ่, หลายสาขา รองรับ iPhone, iPad, Android, Tablet, Windows สามารถนำอุปกรณ์เก่า มาใช้ได้ทันที<br/><br/>
             <div class="row" style="margin-right: -15px; margin-left: -15px;">
                 <div class="col" style="padding: 0;">
-                    <button class="buttonhome" onclick="window.location.href='/free';">
+                    <button class="buttonhome" onclick="window.location.href='/free-kiosk';">
                         <img src="images/png/free.png" alt="kiosk" width="100%" class="imgshadow"><br />
-                        <b style="color: #000;font-size: 2vw;">ร้านอาหาร ใช้ฟรี</b>
+                        <b style="color: #000;font-size: 2vw;">ร้านอาหาร<br/>ขนาดเล็ก ใช้ฟรี</b>
+                    </button>
+                </div>
+                <div class="col" style="padding: 0;">
+                    <button class="buttonhome" onclick="window.location.href='/free-restaurant';">
+                        <img src="images/solao.jpg" alt="kiosk" width="100%" class="imgshadow"><br />
+                        <b style="color: #000;font-size: 2vw;">ร้านอาหาร<br/>ขนาดใหญ่ ใช้ฟรี</b>
                     </button>
                 </div>
                 <div class="col" style="padding: 0;">
@@ -36,6 +54,7 @@ include 'header.php';
                     </button>
                 </div>
             </div>
+            <br/>
             <div style="max-width: 400px; margin:0 auto;">
                 <h1 class="fit-text">รองรับรูปแบบร้านอาหาร</h1>
             </div>
@@ -260,7 +279,7 @@ include 'header.php';
                         <img src="images/multi-device.webp" alt="หลากหลายอุปกรณ์" width="100%" class="imgshadow"><br />
                         <div style="color: #000;font-size: 12px;">
                             <b class="fit-text listheader">หลากหลายอุปกรณ์</b>
-                            <div class="fit-text">Windows, Ubuntu, Andoid, iOS, Browser</div>
+                            <div class="fit-text">Windows, Ubuntu, Android, iOS, Browser</div>
                         </div>
                     </button>
                 </div>
@@ -289,7 +308,7 @@ include 'header.php';
         <div class="container" id="eat-and-pay">
             <img src="images/eat-and-pay.webp" alt="กินก่อนจ่าย" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
-                <h2>กินก่อนจ่าย</h2>
+                <h2>ระบบร้านกินก่อนจ่าย</h2>
                 <ul style="padding: 20px;">
                     <li><b>เปิดโต๊ะ</b>&nbsp;เมื่อลูกค้าเข้ามาที่ร้าน และเลือกโต๊ะได้แล้ว
                         พนักงานจะเปิดโต๊ะให้ลูกค้านั่งได้ทันที พร้อมกับสั่งอาหารได้ทันที
@@ -315,7 +334,7 @@ include 'header.php';
         <div class="container" id="pay-and-eat">
             <img src="images/pay-and-eat.webp" alt="จ่ายก่อนกิน" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
-                <h2>จ่ายก่อนกิน</h2>
+                <h2>ระบบร้านจ่ายก่อนกิน</h2>
                 <ul style="padding: 20px;">
                     <li><b>ระบบสั่งอาหารล่วงหน้า</b>&nbsp;ลูกค้าสามารถ Scan QR Code เพื่อเลือกสินค้า
                         และเครื่องดื่มล่วงหน้า
@@ -335,7 +354,7 @@ include 'header.php';
         <div class="container" id="buffet">
             <img src="images/buffet.webp" alt="บุฟเฟต์" width="200px" style="float: right;padding: 10px;" class="imgshadow">
             <div>
-                <h2>บุฟเฟต์</h2>
+                <h2>ระบบร้านบุฟเฟต์</h2>
                 <ul style="padding: 20px;">
                     <li><b>เลือกน้ำซุปได้เมื่อเปิดโต๊ะ</b>&nbsp;เลือกน้ำซุป เช่น ซุปกระดูก และซุปหมาล่า
                         ระบบจะแจ้งไปทางครัวเพื่อให้เตรียมรายการได้ล่วงหน้า</li>
@@ -600,4 +619,4 @@ include 'header.php';
 
 </html>
 
-<?php include('footer-script.php'); ?>
+<?php include 'footer-script.php'; ?>
