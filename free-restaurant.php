@@ -150,7 +150,7 @@ include 'header.php';
                     </div>
                     <div class="custom-list-item">
                         <i class="bi bi-receipt-cutoff me-2 text-success"></i>
-                        ระบบ KIOSK ใช้ฟรีไม่เกิน 333 ใบเสร็จต่อวัน/สาขา
+                        ระบบ ร้านอาหาร ใช้ฟรีไม่เกิน 333 ใบเสร็จต่อวัน/สาขา
                     </div>
                     <div class="custom-list-item">
                         <i class="bi bi-info-square-fill me-2 text-info"></i>
