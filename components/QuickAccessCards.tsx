@@ -21,7 +21,7 @@ export default function QuickAccessCards() {
       title: 'แนะนำอุปกรณ์',
       image: '/images/png/hardware.png',
       href: '/hardware',
-      color: 'from-isaan-500 to-isaan-600',
+      color: 'from-orange-500 to-orange-600',
     },
   ];
 
