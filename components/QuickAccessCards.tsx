@@ -18,7 +18,7 @@ export default function QuickAccessCards() {
       color: 'from-blue-500 to-blue-600',
     },
     {
-      title: 'แนะนำอุปกรณ์',
+      title: 'แนะนำ\nอุปกรณ์',
       image: '/images/multi-device.webp',
       href: '/hardware',
       color: 'from-orange-500 to-orange-600',
