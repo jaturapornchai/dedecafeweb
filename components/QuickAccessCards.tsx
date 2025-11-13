@@ -13,7 +13,7 @@ export default function QuickAccessCards() {
     },
     {
       title: 'ร้านอาหาร\nขนาดใหญ่ ใช้ฟรี',
-      image: '/images/solao.jpg',
+      image: '/images/staff-system.webp',
       href: '/free-restaurant',
       color: 'from-blue-500 to-blue-600',
     },

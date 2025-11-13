@@ -145,7 +145,7 @@ export default function FreeRestaurantPage() {
         <div className="card-pottery overflow-hidden">
           <div className="relative h-96">
             <Image
-              src="/images/solao.jpg"
+              src="/images/staff-system.webp"
               alt="ร้านอาหารขนาดใหญ่"
               fill
               className="object-cover"
