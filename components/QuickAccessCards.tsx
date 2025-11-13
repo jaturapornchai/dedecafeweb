@@ -19,7 +19,7 @@ export default function QuickAccessCards() {
     },
     {
       title: 'แนะนำอุปกรณ์',
-      image: '/images/png/hardware.png',
+      image: '/images/multi-device.webp',
       href: '/hardware',
       color: 'from-orange-500 to-orange-600',
     },
