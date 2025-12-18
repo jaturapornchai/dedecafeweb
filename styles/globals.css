@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Sarabun:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sarabun text-gray-800 bg-gradient-to-b from-earthen-50 to-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-mitr;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold text-earthen-700;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-bold text-earthen-700;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl font-semibold text-earthen-600;
+  }
+}
+
+@layer components {
+  /* ปุ่มสไตล์บ้านเชียง */
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-isaan-400 to-isaan-500 text-white font-mitr font-semibold rounded-lg shadow-lg hover:shadow-xl hover:from-isaan-500 hover:to-isaan-600 transition-all duration-300 transform hover:-translate-y-1;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-gradient-to-r from-earthen-500 to-earthen-600 text-white font-mitr font-semibold rounded-lg shadow-md hover:shadow-lg hover:from-earthen-600 hover:to-earthen-700 transition-all duration-300;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 border-2 border-earthen-500 text-earthen-700 font-mitr font-semibold rounded-lg hover:bg-earthen-500 hover:text-white transition-all duration-300;
+  }
+
+  /* Card สไตล์เครื่องปั้นดินเผา */
+  .card-pottery {
+    @apply bg-white rounded-2xl shadow-lg border-2 border-earthen-200 hover:shadow-2xl hover:border-earthen-300 transition-all duration-300 overflow-hidden;
+  }
+
+  .card-feature {
+    @apply bg-gradient-to-br from-white to-earthen-50 rounded-xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border-l-4 border-isaan-400;
+  }
+
+  /* ลายไทย decorative */
+  .thai-pattern-border {
+    @apply relative;
+  }
+
+  .thai-pattern-border::before {
+    content: '';
+    @apply absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-isaan-400 to-transparent;
+  }
+
+  .thai-pattern-border::after {
+    content: '';
+    @apply absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-isaan-400 to-transparent;
+  }
+
+  /* Section divider แบบอีสาน */
+  .section-divider {
+    @apply relative my-12 h-px bg-gradient-to-r from-transparent via-earthen-300 to-transparent;
+  }
+
+  .section-divider::before {
+    content: '✦';
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white px-4 text-isaan-400 text-2xl;
+  }
+
+  /* Container แบบไทย */
+  .container-thai {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Shadow แบบเครื่องปั้นดินเผา */
+  .shadow-pottery {
+    box-shadow:
+      0 4px 6px -1px rgba(182, 124, 88, 0.1),
+      0 2px 4px -1px rgba(182, 124, 88, 0.06),
+      inset 0 -1px 2px rgba(182, 124, 88, 0.1);
+  }
+
+  /* Animation แบบนุ่มนวล */
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-in;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Custom scrollbar สีดินเผา */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-earthen-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-earthen-400 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-earthen-500;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-isaan-400 text-white;
+}
+
+::-moz-selection {
+  @apply bg-isaan-400 text-white;
+}
